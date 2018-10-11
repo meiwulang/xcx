@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8"UTF-8">
+
+    <title>
+            珠宝-小程序成功案例-微信珠宝小程序开发案例-微圈互动小程序
+    </title>
+    
+            <meta name="description" content="
+            数万珠宝商家选择微圈互动小程序，本栏目列举了珠宝的小程序开发案例，以供商家参考选择！
+    " />
+        <meta name="Keywords" content="
+            珠宝小程序成功案例,小程序案例
+    " />
+
+    <meta name="sogou_site_verification" content="TWqPdu1axP"/>
+    
+    <link rel="stylesheet" href="../assets/www/css/style.css" tppabs="http://xcx.18weiquan.com/assets/www/css/style.css">
+    <link rel="stylesheet" href="../assets/www/css/index.css" tppabs="http://xcx.18weiquan.com/assets/www/css/index.css"/>
+
+	<style>
+					#case_main .case_banner {
+    width: 100%;
+    height: 300px;
+    background: url("../uploadImgs/2018-05-16/5afc20d1c90a5.jpg"/*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-16/5afc20d1c90a5.jpg*//*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-16/5afc20d1c90a5.jpg*/) center;
+}
+
+#footer .footer_top .left .f_logo {
+    width: 155px;
+    margin-right: 10px;
+    background: url("../uploadImgs/2018-05-17/5afd2ffd2a508.png"/*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd2ffd2a508.png*//*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd2ffd2a508.png*/) -36px -530px !important;
+}
+#about .info .info_img {
+    width: 480px;
+    height: 270px;
+    background: url("../uploadImgs/2018-05-17/5afd416a1bdb2.jpg"/*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd416a1bdb2.jpg*//*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd416a1bdb2.jpg*/);
+}
+#create_main .create_banner {
+    width: 100%;
+    height: 300px;
+    background: url("../uploadImgs/2018-05-17/5afd6cae58572.png"/*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd6cae58572.png*//*tpa=http://xcx.18weiquan.com/uploadImgs/2018-05-17/5afd6cae58572.png*/) center;
+}
+.honor{display:none}
+.video{display:none}
+.advertisement {display:none}
+.partner .partner_top3 {display:none}
+.group_top3 {display:none}
+
+.slide_3 {
+    background: url("../uploadImgs/2018-06-07/5b1950c6771d2.png"/*tpa=http://xcx.18weiquan.com/uploadImgs/2018-06-07/5b1950c6771d2.png*//*tpa=http://xcx.18weiquan.com/uploadImgs/2018-06-07/5b1950c6771d2.png*/);
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+element.style {
+    background: url("../../xcx.360shop.com.cn/uploadImgs/2018-06-15/5b23598d3276f.jpg"/*tpa=http://xcx.360shop.com.cn//uploadImgs/2018-06-15/5b23598d3276f.jpg*/) no-repeat;
+    background-position: center;
+    background-size: 165px 165px;
+}
+		
+	</style>
+
+
+    
+<link rel="stylesheet" type="text/css" href="../assets/www/css/product/product.css" tppabs="http://xcx.18weiquan.com/assets/www/css/product/product.css">
+<link rel="stylesheet" href="../assets/kk/css/modules.css" tppabs="http://xcx.18weiquan.com/assets/kk/css/modules.css">
+
+<style>
+	.product_pannel .content .right_content {
+		min-height: 700px;
+	}
+	
+	.add_wechat.shop:hover {
+		margin-top: 10px;
+	}
+</style>
+
+    <script src="../assets/www/js/jquery-1.10.2.js" tppabs="http://xcx.18weiquan.com/assets/www/js/jquery-1.10.2.js"></script>
+    <style>
+		.pageShow a{
+			width:auto !important;
+			padding: 0px 3px 0px 3px;
+		}
+
+		#service .c-service{
+        }
+        #service .c-service{
+            width: 155px;
+        }
+        #service .c-service > .c-text{
+            width: 114px;
+        }
+		#LRMINIBar{
+		}
+		#consult{
+			top:10% !important;
+		}
+		.shadowpar1 {
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.7);
+			z-index: 999999999999;
+			display: none;
+		}
+		.shadow.shadow1 {
+			/*width: 1110px;*/
+			height: 490px;
+			/*background: url("/assets/www/image/layout/login_box.png") no-repeat;*/
+			background-size: 100% 100%;
+			background-position: center;
+
+			width: 721px;
+			background: url("../assets/www/image/layout/login_box2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/login_box2.png*//*tpa=http://xcx.18weiquan.com/assets/www/image/layout/login_box2.png*/) no-repeat;
+
+		}
+		.closeShadow1 {
+			width: 44px;
+			height: 44px;
+			position: absolute;
+			bottom: 4px;
+			/*left: 534px;*/
+			cursor: pointer;
+			z-index: 999;
+
+			left: 334px;
+		}
+		.version_box {
+			position: absolute;
+			top: 214px;
+			width: 266px;
+			height:151px;
+			display: flex;
+			display: -webkit-flex;
+			display: -moz-flex;
+			align-items: center;
+			-webkit-align-items: center;
+			-moz-align-items: center;
+			flex-direction: column;
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+		}
+		.version_box .title{
+			color: #2e3642;
+			font-size: 28px;
+		}
+		.version_box .subtitle{
+			color: #999;
+			font-size: 14px;
+			margin-top: 18px;
+			margin-bottom: 32px;
+		}
+		.version_box .enter{
+			color: #fff;
+			font-size: 18px;
+			width:260px;
+			height: 50px;
+			border-radius: 8px;
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
+			line-height: 50px;
+			text-align: center;
+		}
+		.version_box.circle {
+			left: 40px;
+		}
+		.version_box.circle .enter{
+			background: linear-gradient(90deg, #5349b5, #4b8de7);
+		}
+		.version_box.industry {
+			left: 422px;
+		}
+		.version_box.industry .enter{
+			background: linear-gradient(90deg, #ff5c57, #ff9626);
+		}
+		.version_box.market {
+			right: 40px;
+		}
+		.version_box.market .enter{
+			background: linear-gradient(90deg, #ff4c66, #f9688a);
+		}
+		.link_box {
+			height:66px;
+			display: flex;
+			display: -webkit-flex;
+			display: -moz-flex;
+			align-items: center;
+			-webkit-align-items: center;
+			-moz-align-items: center;
+			justify-content: flex-start;
+			-webkit-justify-content: flex-start;
+			-moz-justify-content: flex-start;
+			color: #b0b0b0;
+			font-size: 14px;
+			border-bottom: 1px solid #4c4c4c;
+		}
+		.link_item {
+			padding-right: 6px;
+			padding-left: 6px;
+		}
+		.link_item a {
+			color: #b0b0b0;
+		}
+		.link_item a:hover{
+			color: #96989F;
+			text-decoration: underline;
+		}
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="header" style="overflow: inherit;position: fixed;left: 0;top: 0;width: 100%;z-index: 9999999999;background: #fff;box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.1);">
+        <div class=" wh_1200" style="height: 70px;">
+            <div class="logo">
+                <a href="../index.htm" tppabs="http://xcx.18weiquan.com/">
+                                            <img src="../uploadImgs/2018-05-25/5b07c194b4f49.png" tppabs="http://xcx.18weiquan.com/uploadImgs/2018-05-25/5b07c194b4f49.png" alt="" style="width: 124px;height: 34px;margin-top: 18px;">
+                                    </a>
+            </div>
+            <ul class="nav_top">
+                <li class="">
+                    <a href="../index.htm" tppabs="http://xcx.18weiquan.com/">首页</a>
+                </li>
+                <li class="offline" style="position: relative;">
+                    <a href="javascript:;">线下门店方案</a>
+                    <span class="arrow"></span>
+                    <div class="slideBox">
+                    	<p>第三方第三方</p>
+                    	<div class="slideList">
+                    		<div class="list_slidebox">
+                    			<div class="list_slide">
+	                    			<a class="slidea1" href="../Store/tradingArea.html" tppabs="http://xcx.18weiquan.com/Store/tradingArea.html">商圈街区业态</a>
+	                				<a class="slidea2" href="../Store/tradingArea.html" tppabs="http://xcx.18weiquan.com/Store/tradingArea.html">打造24小时不打烊的线上商圈</a>
+	                				<a class="slidea3 show_auto_reg" href="../Store/tradingArea.html" tppabs="http://xcx.18weiquan.com/Store/tradingArea.html">免费试用</a>
+	                				<a class="slidea3" href="../Store/tradingArea.html" tppabs="http://xcx.18weiquan.com/Store/tradingArea.html">了解详情</a>
+                    			</div>
+                    			<div class="list_slide" style="width: 144px;">
+	                    			<a class="slidea1" href="../Store/waimai.html" tppabs="http://xcx.18weiquan.com/Store/waimai.html">微信外卖方案</a>
+	                				<a class="slidea2" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">告别平台的高额抽佣和严苛条款</a>
+	                				<a class="slidea3 show_auto_reg" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">免费试用</a>
+	                				<a class="slidea3" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">了解详情</a>
+                    			</div>
+                    			<div class="list_slide">
+	                    			<a class="slidea1" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">餐饮拓客方案</a>
+	                				<a class="slidea2" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">优化餐饮企业客流质量，提升毛利</a>
+	                				<a class="slidea3 show_auto_reg" href="javascript:;">免费试用</a>
+	                				<a class="slidea3" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">了解详情</a>
+                    			</div>
+                    			<div class="list_slide">
+	                    			<a class="slidea1" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">酒店旅游预订</a>
+	                				<a class="slidea2" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">自营客源滚雪球，成为您预订客户</a>
+	                				<a class="slidea3 show_auto_reg" href="javascript:;">免费试用</a>
+	                				<a class="slidea3" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">了解详情</a>
+                    			</div>
+                    			<div class="list_slide">
+	                    			<a class="slidea1" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">丽人美业预约</a>
+	                				<a class="slidea2" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">提前锁定消费，丰富极致的客带客模式</a>
+	                				<a class="slidea3 show_auto_reg" href="javascript:;">免费试用</a>
+	                				<a class="slidea3" href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">了解详情</a>
+                    			</div>
+                    			<!--div class="list_slide">
+	                    			<a class="slidea1" href="javascript:;">招商入驻方案</a>
+	                				<a class="slidea2" href="javascript:;">微圈互动代理渠道伙伴的专属福利！</a>
+	                				<a class="slidea3 show_auto_reg" href="javascript:;">了解详情</a>
+                    			</div-->
+                    			<div class="list_slide">
+	                    			<a class="slidea1" href="../Shop/index.html" tppabs="http://xcx.18weiquan.com/Shop/index.html">零售/分销商城</a>
+	                				<a class="slidea2" href="../Shop/index.html" tppabs="http://xcx.18weiquan.com/Shop/index.html">直面8亿微信用户，快速开展在线电商</a>
+	                				<a class="slidea3 show_auto_reg" href="javascript:;">免费试用</a>
+	                				<a class="slidea3 " href="../Shop/index.html" tppabs="http://xcx.18weiquan.com/Shop/index.html">了解详情</a>
+                    			</div>
+
+                    		</div>
+
+							<div class="slide_bottom">
+								<span style="margin-right: 30px;">总部热线：
+                                                                        ‭18358128154
+                                                                    </span>
+								<span style="padding-right: 20px;border-right:1px solid #dddddd;">咨询热线：
+                                                                            ‭18358128154
+                                                                    </span>
+								<span style="margin-left: 10px;">周一到周日 9:00~18:00</span>
+							</div>
+
+                    	</div>
+                    </div>
+                </li>
+                <li class="cur">
+                	<em class="icon_new"></em>
+                    <a href="index.html" tppabs="http://xcx.18weiquan.com/Case/index.html">案例</a>
+                </li>
+                <!--<li class="">
+                    <a href="/Store/index.html">门店小程序</a>
+
+                </li>-->
+                <li class="">
+
+                    <a href="../Shop/index.html" tppabs="http://xcx.18weiquan.com/Shop/index.html">商城小程序</a>
+
+                </li>
+                <li class="">
+                    <a href="../Group/index.html" tppabs="http://xcx.18weiquan.com/Group/index.html">拼团系统</a>
+                    <!--<em class="bottom_icon"></em>-->
+                </li>
+                <li class="">
+                    <a href="../Channel/index.html" tppabs="http://xcx.18weiquan.com/Channel/index.html">渠道合作</a>
+                    <!--<em class="bottom_icon"></em>-->
+                </li>
+                <!--<li class="">
+                    <a href="/About/index.html">更新日志</a>
+
+                </li>-->
+                <li class="">
+                    <a href="../Service/index.html" tppabs="http://xcx.18weiquan.com/Service/index.html">服务支持</a>
+                    <!--<em class="bottom_icon"></em>-->
+                </li>
+               	<li class="">
+                    <a href="../Update/index.html" tppabs="http://xcx.18weiquan.com/Update/index.html">更新日志</a>
+                </li>
+
+               	<li class="sy_login">
+                    <a href="javascript:if(confirm('http://mp.18wqhd.com/Public/login.html  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://mp.18wqhd.com/Public/login.html'" tppabs="http://mp.18wqhd.com/Public/login.html" target="_blank" class="show_login">系统登陆</a>
+					<!--<a href="javascript:;" class="show_login">系统登陆</a>-->
+                </li>
+                <li class="sy_register">
+                    <a href="javascript:;" class="show_auto_reg">注册体验</a>
+                </li>
+            </ul>
+        </div>
+        <!--浮动客服-->
+        <div id="consult">
+        	<ul class="consultBox">
+        		<li class="consult_online">
+        			<a href="javascript:;">
+        				<img src="../assets/www/image/layout/online.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/online.png" />
+        				<span>在线咨询</span>
+        			</a>
+        		</li>
+
+        		<li class="consult_li consult_qq" style="position: relative;">
+        			<a href="javascript:;">
+        				<img style="width: 21px;height: 23px;" src="../assets/www/image/layout/qq_c.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/qq_c.png" />
+        				<span>QQ咨询</span>
+        			</a>
+        			<div class="consult_listbox">
+        			<ul class="consult_list" style="position: relative;" >
+        				<p class="angle_p"></p>
+																														<li>
+							<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=1398350704&site=qq&menu=yes  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=1398350704&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=1398350704&site=qq&menu=yes" target="_blank" data-qq="1398350704">
+								<img style="width: 14px;height: 16px;margin-left: 10px;" src="../assets/www/image/layout/qq_c.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/qq_c.png" />
+								<span>王经理</span>
+							</a>
+						</li>
+
+												
+																																		<li>
+								<a href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank">
+									<img style="width: 14px;height: 16px;margin-left: 10px;" src="../assets/www/image/layout/qq_c.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/qq_c.png" />
+									<span></span>
+								</a>
+							</li>
+												
+
+        			</ul>
+        			</div>
+        		</li>
+
+        		<li class="consult_li show_auto_reg">
+        			<a href="javascript:;">
+        				<img style="width: 20px;height: 18px;" src="../assets/www/image/layout/news.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/news.png" />
+        				<span>匿名咨询</span>
+        			</a>
+        		</li>
+
+        		<li class="consult_li show_auto_reg">
+        			<a href="javascript:;">
+        				<img style="width: 18px;height: 18px;" src="../assets/www/image/layout/sign.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/sign.png" />
+        				<span>立即报名</span>
+        			</a>
+        		</li>
+        		<li class="consult_li consult_tel" style="border-bottom:1px solid #e0e0e0;position: relative;">
+        			<a href="javascript:;">
+        				<img style="width: 14px;height: 18px;" src="../assets/www/image/layout/tel.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/tel.png" />
+        				<span>电话咨询</span>
+        			</a>
+        			<div class="consult_tellist">
+	        			<ul class="consult_list" style="position: relative;" >
+	        				<p class="angle_p"></p>
+																																			<li>
+								<div>
+									<p class="telp1">王经理：</p>
+									<p class="telp2">18358128154</p>
+								</div>
+							</li>
+															        			</ul>
+        			</div>
+        		</li>
+        		<li class="consult_return" style="display: block;">
+        			<a href="javascript:;">
+        				<img style="width: 18px;height: 18px;" src="../assets/www/image/layout/return.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/return.png" />
+        				<span>返回顶部</span>
+        			</a>
+        		</li>
+        	</ul>
+
+        </div>
+        <!--回到顶部-->
+        <!--<div id="top" style="display: block;">
+            <img src="/assets/www/image/layout/top.png" alt="" style="margin-top: -44px;">
+        </div>-->
+        <!--弹出层-->
+
+    </div>
+    <div class="black" style="background: #fff;width: 100%;height: 70px;"></div>
+    
+<div class="product_pannel">
+	<div class="top">
+		<p>门店案例</p>
+	</div>
+	<div class="content" style="min-height: 700px;">
+		<div class="nav_list bdbox" style="height: 965px;overflow-y: auto;">
+			<ul>
+				<li class="">
+					<a href="index.html" tppabs="http://xcx.18weiquan.com/Case/index.html" style="display: block;">
+						全部行业
+					</a>
+				</li>
+								<li class="active">
+					<a href="index.html-id=26.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=26" style="display: block;">珠宝</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=22.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=22" style="display: block;">鲜花</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=3.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=3" style="display: block;">餐饮</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=6.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=6" style="display: block;">汽车4S</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=8.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=8" style="display: block;">亲子早教</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=25.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=25" style="display: block;">酒吧</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=14.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=14" style="display: block;">足疗</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=24.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=24" style="display: block;">企业微官网</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=27.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=27" style="display: block;">教育培训</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=10.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=10" style="display: block;">丽人</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=7.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=7" style="display: block;">宠物</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=16.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=16" style="display: block;">旅行社</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=18.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=18" style="display: block;">家居城</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=11.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=11" style="display: block;">医疗</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=12.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=12" style="display: block;">酒店</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=42.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=42" style="display: block;">商城</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=1.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=1" style="display: block;">生鲜水果</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=13.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=13" style="display: block;">KTV</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=28.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=28" style="display: block;">摄影</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=4.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=4" style="display: block;">西点面包</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=2.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=2" style="display: block;">商超</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=15.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=15" style="display: block;">洗衣店</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=9.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=9" style="display: block;">健身</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=20.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=20" style="display: block;">家政</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=29.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=29" style="display: block;">自营外卖</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=17.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=17" style="display: block;">房产中心</a>
+				</li>
+								<li class="">
+					<a href="index.html-id=19.htm" tppabs="http://xcx.18weiquan.com/Case/index.html?id=19" style="display: block;">商圈</a>
+				</li>
+							</ul>
+		</div>
+		<div class="right_content bdbox" style="margin-bottom: 10px">
+			<!--            <div class="add_wechat shop">
+                <div class="showshop">
+                    <div class="shop_img bdbox">
+                        <img src="http://xcx.360shop.com.cn//uploadImgs/2017-08-21/599aa21c703f7.jpg">
+                    </div>
+                    <div class="name" style="width: 100%">微圈互动珠宝店案例</div>
+                </div>
+            </div>
+            -->
+			<div class="industry">
+
+				<div class="industry_to">
+					<div class="industry_tobox">
+						<ul>
+														<li data-id="52">
+								<div class="industryImgbox">
+									<div class="industryImg" style="background: url('http://xcx.360shop.com.cn//uploadImgs/2017-08-21/599aa21c703f7.jpg') no-repeat ;background-position:center ;background-size:165px 165px;">
+										<!--<img src="" />-->
+									</div>
+								</div>
+								<p class="industryTxt">微圈互动珠宝店案例</p>
+								<p class="industryline"></p>
+							</li>
+													</ul>
+					</div>
+					<div class="btnleft"></div>
+					<div class="btnright"></div>
+					<div class="code">
+						<div class="codeboxle">
+							<div class="code01"></div>
+							<p>微信扫一扫</p>
+						</div>
+						<div class="codeboxmi">
+							<div class="nowcode"><img src="" />
+								<div class="vcode"></div>
+							</div>
+							<p></p>
+
+						</div>
+						<div class="codeboxle">
+							<div class="code02"></div>
+							<p>小程序二维码</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="industry_bo">
+					<div class="industry_bobox">
+						<ul>
+
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div class="pageShow" style="text-align: center;margin-bottom: 10px;">
+			 1 条记录 1/1 页             
+		</div>
+		<div class="clearfix"></div>
+
+	</div>
+</div>
+
+    <div class="footer" >
+        <div class="wh_1200" style="position: relative;">
+        	<div class="foot_top">
+        		<div class="foot_topimg">
+        			<img src="../uploadImgs/2018-05-25/5b07c6d9989a0.png" tppabs="http://xcx.18weiquan.com/uploadImgs/2018-05-25/5b07c6d9989a0.png" style="width: 127px;"/>
+        		</div>
+        		<div class="foot_tel1">
+        			<img src="../assets/www/image/layout/foot_tel.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/foot_tel.png" style="width: 50px;display: inline-block;margin-top: 28px;float: left;" />
+        			<span>总部热线：</span>
+        			<span>                                                    ‭18358128154
+                                                        </span>
+        		</div>
+        		<div class="foot_tel2">
+        			<span>咨询热线：</span>
+        			<span>                        ‭18358128154
+                    </span>
+        		</div>
+        	</div>
+			
+
+            <div class="part part_1" style="padding-top: 0px;">
+<!--
+                <p class="tit">
+                                            杭州捷东信息科技有限公司
+                                    </p>-->
+                <style>
+                    .part.part_1 ul li{
+                        width: 69px;
+                    }
+                </style>
+
+
+
+                <ul>
+                    <li>
+                        <a href="../Store/index.html" tppabs="http://xcx.18weiquan.com/Store/index.html">小程序门店</a>
+                    </li>
+                    <li>
+                        <a href="../Shop/index.html" tppabs="http://xcx.18weiquan.com/Shop/index.html">小程序商城</a>
+                    </li>
+                    <li>
+                        <a href="../Group/index.html" tppabs="http://xcx.18weiquan.com/Group/index.html">小程序团购</a>
+                    </li>
+                    <li>
+                        <a href="../Channel/index.html" tppabs="http://xcx.18weiquan.com/Channel/index.html">渠道合作</a>
+                    </li>
+                    <li>
+                        <a href="../Channel/index.html" tppabs="http://xcx.18weiquan.com/Channel/index.html">更新日志</a>
+                    </li>
+                    <li>
+                        <a href="../Service/index.html" tppabs="http://xcx.18weiquan.com/Service/index.html">客户服务</a>
+                    </li>
+                    <li>
+                        <a href="../News/index.html" tppabs="http://xcx.18weiquan.com/News/index.html">资讯</a>
+                    </li>
+                </ul>
+                <p class="txt4" style="margin-bottom: 10px;">  |  腾讯社交核心服务商  |  软件企业编号：浙RQ-2016-0157</p>
+                <p class="txt4" style="margin-bottom: 10px;">微圈互动品牌技术  |   杭州市江干区学府街515号智慧谷互联网大厦28楼 |</p>
+                <p class="txt4">© 2008-2018 版权所有
+                                            杭州捷东信息科技有限公司
+                                        旗下
+                    ,微圈互动CRM
+                                            杭州捷东信息科技有限公司
+                                        					<a href="javascript:if(confirm('http://www.miitbeian.gov.cn/  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://www.miitbeian.gov.cn/'" tppabs="http://www.miitbeian.gov.cn/" target="_blank" style="color: #96989F;">
+						浙ICP备16039071号-1
+					</a>
+                                    </p>
+            </div>
+            <div class="part part_2">
+                <!--<p class="tit">咨询电话</p>
+                <span class="num">
+                                            ‭18358128154
+                                    </span>-->
+                <!--<p class="txt4">
+                                            杭州市江干区学府街515号智慧谷互联网大厦28楼 |
+                                    </p>-->
+            </div>
+			<div class="" style="margin-top: 40px;">
+				<img src="../assets/www/image/layout/flag.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/flag.png" style="width: 100px;"/>
+			</div>
+			<div class="foot_code">
+				<img src="../uploadImgs/2017-10-19/288995576226455370.jpg" tppabs="http://xcx.18weiquan.com/uploadImgs/2017-10-19/288995576226455370.jpg" style="width: 118px;"/>
+				<p style="text-align: center;font-size: 14px;line-height: 40px;color: #fff;">公众号</p>
+			</div>
+        </div>
+    </div>
+	<div class="shadowpar">
+		<div class="shadow reg" style="display: none;z-index: 99999;">
+			<div class="closeShadow">
+				<img src="../assets/www/image/layout/close.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/close.png" />
+			</div>
+			<div class="shadowBox">
+				<div class="shadowForm">
+					<h2 class="formTitle">免费体验</h2>
+					<div class="prompt">
+						<div></div>
+						<p>请输入您的联系方式，方便我们稍后联系</p>
+					</div>
+					<div class="telbox">
+						<p>联系手机</p><input class="txtMobile" type="text" style="outline: none;" />
+					</div>
+					<!--div class="industry">
+						<p class="industryLable" style="border-right: none;">适用行业</p>
+						<div class="selectIndustry">
+							<p style="cursor:pointer;"></p>
+							<ul style="top: 40px;max-height:370px;overflow-y: auto;">
+																<li data-id="1">生鲜水果</li>
+																<li data-id="2">商超</li>
+																<li data-id="3">餐饮</li>
+																<li data-id="4">西点面包</li>
+																<li data-id="5">奶茶店</li>
+																<li data-id="6">汽车4S</li>
+																<li data-id="7">宠物</li>
+																<li data-id="8">亲子早教</li>
+																<li data-id="9">健身</li>
+																<li data-id="10">丽人</li>
+																<li data-id="11">医疗</li>
+																<li data-id="12">酒店</li>
+																<li data-id="13">KTV</li>
+																<li data-id="14">足疗</li>
+																<li data-id="15">洗衣店</li>
+																<li data-id="16">旅游社</li>
+																<li data-id="17">房产中心</li>
+																<li data-id="18">家居城</li>
+																<li data-id="19">商圈</li>
+																<li data-id="20">家政</li>
+																<li data-id="21">瑜伽</li>
+																<li data-id="22">鲜花</li>
+																<li data-id="23">服装</li>
+																<li data-id="24">企业微官网</li>
+																<li data-id="25">酒吧</li>
+																<li data-id="26">摄影</li>
+																<li data-id="27">教育培训</li>
+																<li data-id="100">其他</li>
+															</ul>
+						</div>
+						<div class="selectBtn">
+							<p></p>
+						</div>
+
+					</div-->
+					<div class="code" style="height: 40px">
+						<p class="codeLable">验证码</p>
+						<input type="text" style="outline: none;" class="txtCode" />
+						<div class="codeImg">
+							<img src="imgVerify.html.png" tppabs="http://xcx.18weiquan.com/Case/imgVerify.html" style="width: 120px;height: 38px; cursor: pointer;" onclick="$(this).attr('src', $(this).attr('src').split('?')[0]+'?' + Math.random())" />
+						</div>
+					</div>
+					<div class="prompt">
+						<p>我们会保护您的隐私资料</p>
+					</div>
+					<div class="applyBtn toAutoReg">立即申请</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="shadowpar1">
+		<div class="shadow shadow1 reg" style="display: none;z-index: 99999;">
+			<div class="closeShadow1">
+				<img src="../assets/www/image/layout/close.png" tppabs="http://xcx.18weiquan.com/assets/www/image/layout/close.png" />
+			</div>
+			<div class="version_box circle">
+				<p class="title">商圈版</p>
+				<p class="subtitle">商圈版小程序后台管理系统</p>
+				<a href="javascript:if(confirm('http://bmp.18wqhd.com/  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://bmp.18wqhd.com/'" tppabs="http://bmp.18wqhd.com/"><div class="enter">进入商圈版系统</div></a>
+			</div>
+			<div class="version_box industry">
+				<p class="title">全行业版</p>
+				<p class="subtitle">全行业版小程序后台管理系统</p>
+				<a href="javascript:if(confirm('http://mp.18wqhd.com/Public/login.html  \n\n���ļ�δ�� Teleport Pro ���أ���Ϊ ��λ����ʼ��ַ�����õı߽���������·���С�  \n\n����Ҫ�ӷ�����������?'))window.location='http://mp.18wqhd.com/Public/login.html'" tppabs="http://mp.18wqhd.com/Public/login.html"><div class="enter">进入全行业版系统</div></a>
+			</div>
+			<!--<div class="version_box market">-->
+				<!--<p class="title">商城版</p>-->
+				<!--<p class="subtitle">商城版小程序后台管理系统</p>-->
+				<!--<a href=""><div class="enter">进入商城版系统</div></a>-->
+			<!--</div>-->
+		</div>
+	</div>
+</div>
+
+<script>
+    $(function () {
+
+        var currentHangYeId = 0;
+        var isServiceShow = false;
+
+        //
+        $(document).on("click", ".toAutoReg", function(){
+            var mobile = $(".txtMobile").val();
+            var code = $(".txtCode").val();
+            var id = currentHangYeId;
+            var data = {
+                mobile : mobile,
+                code : code,
+                id : id
+            };
+            $.post("userReg.html"/*tpa=http://xcx.18weiquan.com/Case/userReg.html*/, data, function(data){
+                $(".codeImg img").click();
+                if(data.status){
+                    alert(data.msg);
+                    window.location.href = "";
+                }else{
+                    alert(data.msg);
+                    return false;
+                }
+                var toRegUrl = 'http://mp.18wqhd.com/Public/login/Public/register?aid=2000538';
+				//window.location.href  = toRegUrl;
+            }, "json");
+            return false;
+        });
+
+
+        $(document).on("click", ".show_auto_reg", function(){
+            $(".shadowpar").fadeIn();
+            return false;
+        });
+
+        $(document).on("click", ".closeShadow", function(){
+            $(".shadowpar").fadeOut();
+        });
+
+        $(document).on("click", ".show_login", function(){
+            // $(".shadowpar1").fadeIn();
+            // return false;
+        });
+        $(document).on("click", ".closeShadow1", function(){
+            $(".shadowpar1").fadeOut();
+        });
+        //返回顶部
+        $("#top").hover(
+            function(){
+                $(this).find("img").css({ marginTop:"7px" })
+            },
+            function(){
+                $(this).find("img").css({ marginTop:"-44px" })
+            }
+        );
+
+        $(window.document).scroll(function () {
+            var scrolltop = $(document).scrollTop();
+            if(scrolltop>0){
+                $("#top").show();
+            }else{
+                $("#top").hide();
+            }
+        });
+		$(window.document).scroll(function () {
+            var scrolltop = $(document).scrollTop();
+            if(scrolltop>0){
+                $(".consult_return").show();
+            }else{
+                $(".consult_return").hide();
+            }
+        });
+        $("#top").on("click",function(){
+            $(window.document).scrollTop(0);
+        })
+        $(".consult_return").on("click",function(){
+            $(window.document).scrollTop(0);
+        })
+
+        //*客服**
+        //开启
+        $("#service .o-imgwrap").add(".o-service").on("click",function(){
+            $(this).closest(".o-service").hide();
+            $("#service .c-service").css({ left:"0px" });
+        });
+        //关闭
+        $("#service .c-imgwrap").add("http://xcx.18weiquan.com/Case/.c-service .wrap").on("click",function(){
+            $("#service .o-service").show();
+            $(this).closest(".c-service").css({ left:"-170px" });
+        });
+        //弹出框；
+        var is_show = false;
+        $(".selectBtn").click(function(){
+        	if(!is_show){
+        		$(".selectIndustry ul").show();
+        		is_show = true;
+        		$(".selectBtn p").css("transform","rotate(180deg)");
+        	}else{
+        		$(".selectIndustry ul").hide();
+        		is_show = false;
+        		$(".selectBtn p").css("transform","rotate(0deg)");
+        	}
+        })
+        $(".selectIndustry ul li").click(function(){
+        	$(".selectIndustry p").html($(this).html());
+        	$(".selectIndustry ul").hide();
+        	is_show = false;
+        	$(".selectBtn p").css("transform","rotate(0deg)");
+        	var id = $(this).data("id");
+            currentHangYeId = id;
+        })
+        $(".selectIndustry p").click(function () {
+            if(!is_show){
+                $(".selectIndustry ul").show();
+                is_show = true;
+                $(".selectBtn p").css("transform","rotate(180deg)");
+            }else{
+                $(".selectIndustry ul").hide();
+                is_show = false;
+                $(".selectBtn p").css("transform","rotate(0deg)");
+            }
+        })
+
+	   // 线下方案
+	    $(".offline").mouseenter(function(){
+			var winWith = $(window).width();
+			var offsetLe = $(this).offset().left;
+			$(".slideBox").width(winWith);
+			$(".slideBox").css("left",-offsetLe);
+			$(".slideBox").css("height","300px")
+
+
+		})
+	     $(".offline").mouseleave(function(){
+			$(".slideBox").css("height","0")
+
+		})
+
+	    // 在线客服
+		$(".consult_online,.ni-callback").click(function(){
+            $("#LRMINIBar").click();
+            isServiceShow = true;
+		    return false;
+		});
+    });
+
+
+</script>
+
+
+<script>
+	window.newList = {"52":["http:\/\/xcx.360shop.com.cn\/\/uploadImgs\/2017-08-21\/599aa209982b9.jpg","http:\/\/xcx.360shop.com.cn\/\/uploadImgs\/2017-08-21\/599aa20e79e42.jpg","http:\/\/xcx.360shop.com.cn\/\/uploadImgs\/2017-08-21\/599aa2108eb15.jpg"]};
+</script>
+<script src="../assets/www/js/product/product.js" tppabs="http://xcx.18weiquan.com/assets/www/js/product/product.js"></script>
+
+
+
+<!--<script language="javascript" src="http://lzt.zoosnet.net/JS/LsJS.aspx?siteid=LZT66264892&float=1&lng=cn"></script>-->
+
+
+
+<script>
+    
+</script>
+
+
+<script>
+    (function(b,a,e,h,f,c,g,s){ b[h]=b[h]||function(){ (b[h].c=b[h].c||[]).push(arguments) };
+        b[h].s=!!c;g=a.getElementsByTagName(e)[0];s=a.createElement(e);
+        s.src="//s.union.360.cn/"+f+".js";s.defer=!0;s.async=!0;g.parentNode.insertBefore(s,g)
+    })(window,document,"script","_qha",219020,false);
+</script>
+</body>
+</html>

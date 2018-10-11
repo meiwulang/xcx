@@ -1,0 +1,2087 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+.wh_1200 {
+  width: 1200px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: "Microsoft YaHei","Helvetica Neue","Hiragino Sans GB","Segoe UI",Tahoma,Arial,STHeiti,"sans-serif" !important;
+  font-size: 12px; }
+
+.header {
+  overflow: hidden; }
+  .header .logo {
+    display: inline-block; }
+    .header .logo img {
+      margin-top: 16px;
+      margin-left: 10px; }
+  .header .nav_top {
+    display: inline-block;
+    width: 840px;
+    vertical-align: top;
+    margin-left: 135px;
+    font-size: 0; }
+    .header .nav_top li {
+      display: inline-block;
+      height: 110px;
+      width: 115px;
+      line-height: 110px;
+      text-align: center;
+      transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      position: relative; }
+      .header .nav_top li em.icon_new {
+        background: url("../image/icon_new.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_new.png*/) center no-repeat;
+        background-size: 100% auto;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        display: inline-block;
+        top: 13px;
+        left: 53%; }
+      .header .nav_top li em.bottom_icon {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background: #fff;
+        position: absolute;
+        bottom: -5px;
+        left: 47%;
+        transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg); }
+      .header .nav_top li a {
+        display: inline-block;
+        color: #666;
+        font-size: 16px; }
+      .header .nav_top li:hover {
+        background: #FF4500; }
+        .header .nav_top li:hover em.icon_new {
+          background: url("../image/icon_new2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_new2.png*/) center no-repeat;
+          background-size: 100% auto; }
+        .header .nav_top li:hover a {
+          color: #fff; }
+    .header .nav_top li.cur {
+      background: #FF4500; }
+      .header .nav_top li.cur em.icon_new {
+        background: url("../image/icon_new2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_new2.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .header .nav_top li.cur a {
+        color: #fff; }
+
+.btn {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #FF4500;
+  border-radius: 30px;
+  color: #FF4500;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 25px; }
+
+.btn_org {
+  background: #FF4500;
+  color: #fff; }
+
+.btn_mini {
+  width: 80px;
+  height: 35px;
+  line-height: 35px; }
+  .btn_mini:hover {
+    background: #FF4500;
+    color: #fff; }
+
+.index_banner {
+  min-height: 490px;
+  background: url("../image/banner_top.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/banner_top.png*/) center no-repeat; }
+  .index_banner .banner_com {
+    padding-top: 100px; }
+    .index_banner .banner_com .title {
+      font-size: 38px;
+      color: #555; }
+    .index_banner .banner_com .txt1 {
+      font-size: 16px;
+      width: 500px;
+      color: #555;
+      line-height: 32px;
+      margin-top: 25px; }
+    .index_banner .banner_com .btns {
+      margin-top: 80px; }
+
+.index_detail .title {
+  font-size: 36px;
+  color: #333;
+  padding-top: 70px;
+  text-align: center;
+  margin-bottom: 30px; }
+.index_detail .title_next, .index_detail .txt1 {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  margin-bottom: 20px; }
+.index_detail img {
+  display: inline-block; }
+.index_detail .right_con {
+  display: inline-block;
+  vertical-align: top; }
+  .index_detail .right_con ul {
+    width: 660px;
+    padding-top: 40px;
+    margin-left: 55px; }
+    .index_detail .right_con ul li {
+      display: inline-block;
+      width: 300px;
+      margin-bottom: 45px;
+      margin-right: 25px; }
+      .index_detail .right_con ul li .right_con_detail {
+        display: inline-block;
+        width: 185px;
+        vertical-align: top; }
+        .index_detail .right_con ul li .right_con_detail p {
+          font-size: 22px;
+          color: #333333;
+          line-height: 35px;
+          margin-top: 5px;
+          margin-bottom: 5px; }
+        .index_detail .right_con ul li .right_con_detail span {
+          font-size: 16px;
+          color: #555555;
+          line-height: 24px; }
+.index_detail .bg_index1 {
+  min-height: 235px;
+  background: url("../image/banner_top2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/banner_top2.png*/) center no-repeat; }
+  .index_detail .bg_index1 .title {
+    color: #fff; }
+  .index_detail .bg_index1 ul {
+    text-align: center;
+    margin-top: 40px; }
+    .index_detail .bg_index1 ul li {
+      display: inline-block;
+      margin: 0 5px; }
+      .index_detail .bg_index1 ul li a {
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        display: inline-block;
+        text-align: center;
+        background: #FAD8C9;
+        color: #FF4500;
+        border-radius: 30px;
+        font-size: 20px;
+        transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear; }
+      .index_detail .bg_index1 ul li:hover a {
+        background: #fff; }
+.index_detail .tpl_case .tpl {
+  text-align: left;
+  margin-top: 30px; }
+  .index_detail .tpl_case .tpl li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px;
+    margin-bottom: 25px; }
+    .index_detail .tpl_case .tpl li p {
+      margin-top: 10px; }
+      .index_detail .tpl_case .tpl li p span {
+        color: #666;
+        font-size: 18px; }
+.index_detail .button {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 20px; }
+.index_detail .txt2 {
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  line-height: 32px;
+  margin: 30px auto 10px;
+  width: 980px; }
+.index_detail .bg3 {
+  background: url("../image/bg3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/bg3.png*/) center no-repeat;
+  min-height: 1054px; }
+.index_detail .server_case ul {
+  text-align: center; }
+  .index_detail .server_case ul li {
+    background: #fff;
+    width: 265px;
+    height: 300px;
+    display: inline-block;
+    margin: 16px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear; }
+    .index_detail .server_case ul li .right_b_icon {
+      width: 30px;
+      height: 30px;
+      background: #FFCBB8;
+      display: inline-block;
+      position: absolute;
+      right: -15px;
+      bottom: -15px;
+      transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -webkit-transform: rotate(45deg); }
+    .index_detail .server_case ul li .tit {
+      font-size: 18px;
+      color: #333333;
+      margin: 20px 0 10px;
+      text-align: center; }
+    .index_detail .server_case ul li .icon {
+      width: 90px;
+      height: 95px;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 40px; }
+    .index_detail .server_case ul li .icon_case_1 {
+      background: url("../image/icon_case1_1.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_1.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_2 {
+      background: url("../image/icon_case1_2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_2.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_3 {
+      background: url("../image/icon_case1_3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_3.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_4 {
+      background: url("../image/icon_case1_4.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_4.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_5 {
+      background: url("../image/icon_case1_5.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_5.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_6 {
+      background: url("../image/icon_case1_6.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_6.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_7 {
+      background: url("../image/icon_case1_7.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_7.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li .icon_case_8 {
+      background: url("../image/icon_case1_8.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case1_8.png*/) center no-repeat;
+      background-size: 100% auto; }
+    .index_detail .server_case ul li span {
+      width: 190px;
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      color: #999999;
+      margin: 0 auto; }
+    .index_detail .server_case ul li:hover {
+      background: #FF4500; }
+      .index_detail .server_case ul li:hover .right_b_icon {
+        background: #fff; }
+      .index_detail .server_case ul li:hover .icon_case_1 {
+        background: url("../image/icon_case_1.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_1.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_2 {
+        background: url("../image/icon_case_2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_2.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_3 {
+        background: url("../image/icon_case_3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_3.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_4 {
+        background: url("../image/icon_case_4.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_4.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_5 {
+        background: url("../image/icon_case_5.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_5.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_6 {
+        background: url("../image/icon_case_6.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_6.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_7 {
+        background: url("../image/icon_case_7.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_7.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .icon_case_8 {
+        background: url("../image/icon_case_8.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_case_8.png*/) center no-repeat;
+        background-size: 100% auto; }
+      .index_detail .server_case ul li:hover .tit {
+        color: #fff; }
+      .index_detail .server_case ul li:hover span {
+        color: #fff; }
+.index_detail .min_project {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 85px; }
+  .index_detail .min_project li {
+    display: inline-block;
+    width: 290px;
+    height: 254px;
+    border-bottom: 1px dashed #E4E4E4;
+    border-right: 1px dashed #E4E4E4; }
+    .index_detail .min_project li:nth-child(4n) {
+      border-right: none; }
+    .index_detail .min_project li:nth-child(5) {
+      border-bottom: none; }
+    .index_detail .min_project li:nth-child(6) {
+      border-bottom: none; }
+    .index_detail .min_project li:nth-child(7) {
+      border-bottom: none; }
+    .index_detail .min_project li:nth-child(8) {
+      border-bottom: none; }
+    .index_detail .min_project li img {
+      margin-top: 45px; }
+    .index_detail .min_project li .tit {
+      font-size: 18px;
+      color: #333333;
+      margin: 5px 0 10px; }
+    .index_detail .min_project li .txt4 {
+      font-size: 30px;
+      color: #FF4500; }
+.index_detail .case_more {
+  margin-bottom: 140px;
+  margin-top: 50px;
+  text-align: center; }
+  .index_detail .case_more li {
+    display: inline-block;
+    margin: 20px 10px; }
+.index_detail .bg_company {
+  background: url("../image/bg5.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/bg5.png*/) center no-repeat;
+  min-height: 655px;
+  position: relative; }
+  .index_detail .bg_company .mgt70 {
+    margin-top: 70px; }
+  .index_detail .bg_company .company_con {
+    position: absolute;
+    width: 665px;
+    top: 220px;
+    left: 485px;
+    display: inline-block; }
+    .index_detail .bg_company .company_con .tit {
+      font-size: 36px;
+      color: #FF4500;
+      margin-bottom: 20px;
+      font-weight: bold; }
+    .index_detail .bg_company .company_con .txt3 {
+      font-size: 14px;
+      color: #858585; }
+.index_detail .bg_orange {
+  background: url("../image/banner_top2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/banner_top2.png*/) center no-repeat;
+  min-height: 234px; }
+  .index_detail .bg_orange ul {
+    text-align: center;
+    padding-top: 55px; }
+    .index_detail .bg_orange ul li {
+      display: inline-block;
+      width: 290px;
+      height: 145px;
+      border-right: 1px dashed #ddd; }
+      .index_detail .bg_orange ul li:last-child {
+        border-right: none; }
+      .index_detail .bg_orange ul li p {
+        font-size: 46px;
+        color: #fff; }
+        .index_detail .bg_orange ul li p span {
+          font-size: 26px;
+          vertical-align: top;
+          display: inline-block;
+          font-weight: bold; }
+        .index_detail .bg_orange ul li p .tt {
+          font-size: 14px;
+          vertical-align: bottom;
+          font-weight: normal; }
+      .index_detail .bg_orange ul li .txt6 {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        margin-top: 20px; }
+.index_detail .bg_kt {
+  min-height: 918px;
+  background: url("../image/bg6.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/bg6.png*/) center no-repeat; }
+  .index_detail .bg_kt .icon_down {
+    background: url("../image/icon_down.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_down.png*/) center no-repeat;
+    width: 32px;
+    height: 30px;
+    display: block;
+    margin: 0 auto 40px; }
+.index_detail .map {
+  position: relative;
+  top: -400px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden; }
+  .index_detail .map .title {
+    padding-top: 35px; }
+  .index_detail .map .com_info {
+    text-align: center;
+    padding-bottom: 30px; }
+    .index_detail .map .com_info li {
+      width: 360px;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+      margin: 0 10px;
+      color: #666;
+      background: #EEEEEE;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 30px; }
+  .index_detail .map .map_deatil {
+    height: 450px;
+    width: 1200px; }
+    .index_detail .map .map_deatil .address {
+      background: rgba(72, 75, 77, 0.5);
+      position: absolute;
+      bottom: 0;
+      height: 95px;
+      width: 100%;
+      font-size: 20px;
+      color: #fff; }
+      .index_detail .map .map_deatil .address p {
+        padding: 22px; }
+.index_detail .zx {
+  margin-top: -360px;
+  font-size: 0;
+  padding-bottom: 50px; }
+  .index_detail .zx .tit {
+    font-size: 26px;
+    color: #353535;
+    border-bottom: 1px solid #E6E6E6; }
+    .index_detail .zx .tit a {
+      float: right;
+      color: #666;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-right: 10px; }
+  .index_detail .zx .zx_detail {
+    width: 580px;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px; }
+    .index_detail .zx .zx_detail:last-child {
+      margin-right: 0; }
+    .index_detail .zx .zx_detail li {
+      display: block;
+      border-bottom: 1px dashed #ddd; }
+      .index_detail .zx .zx_detail li a {
+        color: #5B5B5B;
+        height: 34px;
+        line-height: 34px; }
+        .index_detail .zx .zx_detail li a span {
+          float: right; }
+
+.footer {
+  height: 240px;
+  background: #333438; }
+  .footer .part_1 {
+    width: 550px;
+    padding: 0 15px; }
+    .footer .part_1 .tit {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff; }
+    .footer .part_1 ul {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .footer .part_1 ul li {
+        width: 85px;
+        display: inline-block;
+        border-right: 1px solid #96989F; }
+        .footer .part_1 ul li a {
+          color: #96989F;
+          display: block;
+          text-align: center; }
+    .footer .part_1 .txt4 {
+      color: #96989F; }
+  .footer .part_2 {
+    color: #96989F;
+    width: 260px;
+    padding: 0 70px; }
+    .footer .part_2 .tit {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff; }
+    .footer .part_2 .num {
+      font-size: 32px;
+      color: #FF4500;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      display: block; }
+  .footer .part {
+    padding-top: 60px;
+    display: inline-block;
+    vertical-align: top; }
+  .footer .ewm {
+    margin-left: 30px; }
+    .footer .ewm p {
+      text-align: center;
+      color: #fff;
+      font-size: 16px; }
+
+.page-link {
+  text-align: center;
+  margin: 20px 0; }
+  .page-link a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    font-size: 20px;
+    color: #3EA8F2;
+    text-align: center;
+    border: 1px solid #3EA8F2;
+    cursor: pointer;
+    margin: 0 3px; }
+    .page-link a:hover {
+      background: #3EA8F2;
+      color: #fff; }
+  .page-link a.cur {
+    background: #3EA8F2;
+    color: #fff; }
+
+.news_list .top_tab .title {
+  font-size: 32px;
+  color: #000000;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center; }
+.news_list .top_tab ul {
+  width: 550px;
+  text-align: center;
+  margin: 0 auto 20px; }
+  .news_list .top_tab ul li {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #E2E2E2;
+    margin: 0 5px; }
+    .news_list .top_tab ul li:hover {
+      background: #FF4500;
+      border: 1px solid #FF4500; }
+      .news_list .top_tab ul li:hover a {
+        color: #fff; }
+    .news_list .top_tab ul li a {
+      display: block;
+      font-size: 16px;
+      color: #454545; }
+.news_list .school_keynote_list .keynote_left {
+  width: 840px;
+  display: inline-block; }
+.news_list .school_keynote_list .keynote_right {
+  width: 315px;
+  float: right; }
+  .news_list .school_keynote_list .keynote_right .list {
+    background: #F8F8F7;
+    padding-bottom: 20px; }
+    .news_list .school_keynote_list .keynote_right .list .right_list {
+      padding: 15px;
+      border-bottom: 1px solid #ECECEC; }
+      .news_list .school_keynote_list .keynote_right .list .right_list img {
+        display: inline-block;
+        width: 120px;
+        height: 90px; }
+      .news_list .school_keynote_list .keynote_right .list .right_list .txt {
+        vertical-align: top;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333;
+        width: 150px;
+        margin-left: 10px; }
+  .news_list .school_keynote_list .keynote_right .scan {
+    margin-top: 20px;
+    width: 315px;
+    height: 315px;
+    display: block;
+    background: url("../../../Public/Images/school/tpl_scan_bg.jpg"/*tpa=http://xcx.18weiquan.com/Public/Images/school/tpl_scan_bg.jpg*/) center no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center; }
+    .news_list .school_keynote_list .keynote_right .scan .txt1 {
+      font-size: 20px;
+      padding-top: 30px; }
+    .news_list .school_keynote_list .keynote_right .scan .txt2 {
+      font-size: 13px;
+      margin: 20px; }
+.news_list .school_keynote_list .keynote .title_txt {
+  font-size: 24px;
+  color: #333;
+  position: relative;
+  border-bottom: 1px solid #ECECEC;
+  margin: 30px 0 0;
+  padding: 4px 0; }
+  .news_list .school_keynote_list .keynote .title_txt .bd_bottom {
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid #F67C00;
+    width: 100px;
+    left: -1px;
+    bottom: -1px; }
+.news_list .school_keynote_list ul li {
+  position: relative;
+  padding: 22px 0;
+  border-bottom: 1px solid #ECECEC; }
+  .news_list .school_keynote_list ul li .left_img {
+    display: inline-block;
+    width: 300px;
+    height: 165px; }
+    .news_list .school_keynote_list ul li .left_img img {
+      width: 100%;
+      height: 100%; }
+  .news_list .school_keynote_list ul li .right_con {
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    margin-left: 35px; }
+    .news_list .school_keynote_list ul li .right_con .title {
+      font-size: 22px;
+      color: #333;
+      width: 100%;
+      overflow: hidden; }
+    .news_list .school_keynote_list ul li .right_con .content {
+      color: #333;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 18px;
+      height: 84px;
+      overflow: hidden; }
+    .news_list .school_keynote_list ul li .right_con .con_bottom {
+      position: absolute;
+      bottom: 20px; }
+      .news_list .school_keynote_list ul li .right_con .con_bottom p span {
+        font-size: 14px;
+        color: #333; }
+        .news_list .school_keynote_list ul li .right_con .con_bottom p span a {
+          color: #4088D0; }
+          .news_list .school_keynote_list ul li .right_con .con_bottom p span a:hover {
+            text-decoration: underline; }
+        .news_list .school_keynote_list ul li .right_con .con_bottom p span:first-child {
+          margin-right: 55px; }
+
+.news_detail .now {
+  width: 830px;
+  display: inline-block;
+  border-bottom: 1px solid #F2F2F2;
+  line-height: 40px;
+  margin-bottom: 20px; }
+  .news_detail .now a {
+    color: #333; }
+  .news_detail .now .now_ad {
+    width: 100%; }
+.news_detail .detail_left {
+  width: 830px;
+  color: #333;
+  display: inline-block;
+  margin-top: 40px; }
+  .news_detail .detail_left .school_keynote_detail {
+    border-bottom: 2px solid #E5E5E5; }
+    .news_detail .detail_left .school_keynote_detail .title1 {
+      font-size: 30px;
+      color: #333;
+      font-weight: 600;
+      text-align: center; }
+    .news_detail .detail_left .school_keynote_detail .title2 {
+      text-align: center;
+      font-size: 14px;
+      padding: 30px 0; }
+      .news_detail .detail_left .school_keynote_detail .title2 span {
+        margin-right: 30px; }
+  .news_detail .detail_left .school_keynote_detail_con .edit_txt {
+    font-size: 16px;
+    color: #333333;
+    line-height: 30px;
+    padding-bottom: 20px; }
+  .news_detail .detail_left .school_keynote_detail_con img {
+    display: block;
+    margin: 0 auto;
+    max-width: 450px;
+    margin-top: 45px;
+    margin-bottom: 20px; }
+  .news_detail .detail_left .school_keynote_detail_con p {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #333;
+    line-height: 32px; }
+
+.about_us .about_us_detail {
+  margin-top: 55px;
+  padding-bottom: 110px; }
+  .about_us .about_us_detail .right_con {
+    display: inline-block;
+    width: 655px;
+    vertical-align: top;
+    margin-left: 30px; }
+    .about_us .about_us_detail .right_con p.tit {
+      padding-top: 35px;
+      color: #FF4500;
+      font-size: 32px; }
+      .about_us .about_us_detail .right_con p.tit span {
+        display: inline-block;
+        border-bottom: 2px solid #FF4500;
+        padding-bottom: 20px; }
+    .about_us .about_us_detail .right_con .content {
+      border-top: 2px solid #F2F2F2;
+      margin-top: -2px;
+      padding: 20px 0;
+      font-size: 14px;
+      color: #666666;
+      line-height: 22px; }
+.about_us .us_partner {
+  background: #f4f4f4;
+  position: relative;
+  padding-top: 113px;
+  text-align: center; }
+  .about_us .us_partner .top_img {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: -113px;
+    left: 0; }
+.about_us .company_photo {
+  margin-top: 50px; }
+  .about_us .company_photo .title {
+    font-size: 32px;
+    line-height: 60px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 40px; }
+    .about_us .company_photo .title span {
+      display: inline-block;
+      border-bottom: 2px solid #FF895D; }
+  .about_us .company_photo ul {
+    font-size: 0;
+    padding-bottom: 80px; }
+    .about_us .company_photo ul li {
+      width: 250px;
+      height: 330px;
+      display: inline-block;
+      overflow: hidden;
+      box-shadow: 1px 3px 15px #c3c3c3;
+      margin-right: 60px;
+      font-size: 16px;
+      border-radius: 5px; }
+      .about_us .company_photo ul li:last-child {
+        margin-right: 0; }
+      .about_us .company_photo ul li .text {
+        line-height: 75px;
+        text-align: center;
+        color: #666666;
+        font-size: 20px; }
+
+.service_banner {
+  background: url("../image/service_banner.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/service_banner.png*/) center no-repeat;
+  min-height: 540px; }
+  .service_banner .banner_com .title {
+    padding-top: 200px;
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    min-width: 1200px;
+    width: 100%; }
+  .service_banner .banner_com .text2 {
+    width: 620px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px; }
+
+.service_con {
+  margin-top: -20px; }
+  .service_con .service_bg {
+    background: url("../image/service_bg.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/service_bg.png*/) center no-repeat;
+    min-height: 500px;
+    text-align: center;
+    background-size: 100% 100%;
+    min-width: 1200px; }
+    .service_con .service_bg .title {
+      padding-top: 85px;
+      color: #666666;
+      font-size: 32px;
+      margin-bottom: 65px; }
+    .service_con .service_bg .txt5 {
+      font-size: 16px;
+      color: #666666;
+      line-height: 32px;
+      margin-bottom: 50px; }
+    .service_con .service_bg .phone_num {
+      width: 475px;
+      display: block;
+      margin: 0 auto;
+      border: 1px dashed #FF4500;
+      border-radius: 30px;
+      line-height: 53px;
+      text-align: center;
+      color: #FF4500;
+      font-size: 22px;
+      margin-bottom: 30px; }
+    .service_con .service_bg .online {
+      font-size: 18px;
+      color: #666; }
+    .service_con .service_bg .tit_tab {
+      padding-top: 75px;
+      text-align: center;
+      font-size: 0; }
+      .service_con .service_bg .tit_tab li {
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color: #666666;
+        background: #DBDBDB;
+        margin-right: 1px;
+        cursor: pointer; }
+        .service_con .service_bg .tit_tab li span {
+          cursor: pointer; }
+        .service_con .service_bg .tit_tab li:first-child {
+          border-radius: 20px 0 0 20px; }
+        .service_con .service_bg .tit_tab li:last-child {
+          border-radius: 0 20px 20px 0; }
+      .service_con .service_bg .tit_tab li.cur {
+        background: #FF4500;
+        color: #fff; }
+    .service_con .service_bg .text3 {
+      margin-top: 60px;
+      text-align: center;
+      line-height: 50px;
+      color: #666666;
+      font-size: 16px; }
+  .service_con .service_bg .min_height600 {
+    min-height: 600px; }
+  .service_con .service_zx .title {
+    font-size: 32px;
+    color: #666;
+    padding-top: 100px;
+    text-align: center; }
+  .service_con .service_zx .title_next {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #666; }
+  .service_con .service_zx ul {
+    margin-top: 95px;
+    text-align: center;
+    padding-bottom: 110px; }
+    .service_con .service_zx ul li {
+      width: 200px;
+      height: 220px;
+      display: inline-block;
+      vertical-align: top; }
+      .service_con .service_zx ul li:nth-child(2) {
+        margin: 0 165px; }
+      .service_con .service_zx ul li .content p {
+        text-align: center;
+        font-size: 20px;
+        color: #666;
+        margin-top: 20px; }
+      .service_con .service_zx ul li .content span {
+        display: block;
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0 2px;
+        color: #666; }
+  .service_con .service_bg2 {
+    background: url("../image/service_bg2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/service_bg2.png*/) center no-repeat;
+    min-height: 600px;
+    text-align: center; }
+    .service_con .service_bg2 .title {
+      padding-top: 90px;
+      font-size: 32px;
+      color: #fff; }
+    .service_con .service_bg2 .content {
+      margin-top: 60px;
+      color: #fff;
+      font-size: 16px;
+      line-height: 50px; }
+  .service_con .service_bgorg {
+    background: url("../image/banner_top2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/banner_top2.png*/) center no-repeat;
+    min-height: 230px;
+    text-align: center; }
+    .service_con .service_bgorg .title {
+      padding-top: 35px;
+      font-size: 35px;
+      color: #fff;
+      line-height: 40px;
+      margin-bottom: 20px; }
+      .service_con .service_bgorg .title span {
+        display: inline-block;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        line-height: 50px; }
+    .service_con .service_bgorg .content {
+      font-size: 16px;
+      color: #fff;
+      line-height: 30px; }
+  .service_con .service_problem {
+    padding: 50px 0 60px; }
+    .service_con .service_problem ul li {
+      display: inline-block;
+      width: 290px;
+      vertical-align: top;
+      text-align: center;
+      border-right: 1px solid #E8E8E8; }
+      .service_con .service_problem ul li:last-child {
+        border: none; }
+      .service_con .service_problem ul li .title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #666;
+        padding-top: 40px;
+        margin-bottom: 90px; }
+      .service_con .service_problem ul li .p1, .service_con .service_problem ul li .p2, .service_con .service_problem ul li .p3 {
+        height: 120px;
+        font-size: 14px;
+        color: #666666;
+        padding: 0 30px; }
+
+.min_store_banner {
+  background: url("../image/store_min_bg.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/store_min_bg.png*/) center no-repeat;
+  min-height: 540px;
+  text-align: center; }
+  .min_store_banner .title {
+    padding-top: 95px;
+    text-align: center;
+    font-size: 46px;
+    color: #fff;
+    margin-bottom: 20px; }
+  .min_store_banner .text2 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-bottom: 40px; }
+  .min_store_banner .bts {
+    margin: 0 auto 60px; }
+    .min_store_banner .bts a {
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      background: #fff;
+      color: #FB9F24;
+      font-size: 16px;
+      display: inline-block;
+      border-radius: 25px;
+      margin: 0 20px; }
+      .min_store_banner .bts a .icon {
+        background: url("../image/min_store_b_icon2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/min_store_b_icon2.png*/) center no-repeat;
+        background-size: 100% auto;
+        width: 27px;
+        height: 26px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-right: 5px; }
+      .min_store_banner .bts a .icon_min2 {
+        background: url("../image/min_store_b_icon3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/min_store_b_icon3.png*/) center no-repeat;
+        background-size: 100% auto; }
+
+.min_store_con {
+  text-align: center; }
+  .min_store_con .title {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #333333; }
+  .min_store_con .next_title {
+    font-size: 16px;
+    color: #888888;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px; }
+  .min_store_con ul li {
+    width: 265px;
+    height: 210px;
+    display: inline-block;
+    margin: 10px 15px; }
+    .min_store_con ul li p.txt {
+      font-size: 18px;
+      color: #666666;
+      line-height: 55px; }
+  .min_store_con .tit_top .title_next {
+    font-size: 16px;
+    color: #888888;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 70px; }
+  .min_store_con .tit_top_bg {
+    background: url("../image/store_min_bg2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/store_min_bg2.png*/) center no-repeat;
+    min-height: 550px; }
+    .min_store_con .tit_top_bg p {
+      font-size: 30px;
+      color: #333333;
+      margin-top: 80px;
+      margin-bottom: 50px; }
+    .min_store_con .tit_top_bg .left_con {
+      width: 550px;
+      height: 410px;
+      display: inline-block; }
+      .min_store_con .tit_top_bg .left_con li {
+        width: 100px;
+        height: 125px;
+        display: inline-block;
+        margin-bottom: 20px; }
+        .min_store_con .tit_top_bg .left_con li span {
+          display: block;
+          font-size: 16px;
+          color: #333333;
+          margin-top: 10px; }
+    .min_store_con .tit_top_bg .right_con {
+      width: 550px;
+      height: 410px;
+      display: inline-block; }
+      .min_store_con .tit_top_bg .right_con li {
+        width: 90px;
+        height: 125px;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        margin-left: 30px; }
+        .min_store_con .tit_top_bg .right_con li span {
+          display: block;
+          font-size: 16px;
+          color: #333333;
+          margin-top: 10px; }
+
+.min_bg {
+  background: #F9F9F9;
+  padding-top: 60px;
+  text-align: center; }
+  .min_bg p.tit {
+    font-size: 32px;
+    color: #333; }
+
+.min_bg_grey {
+  background: #F3F3F4; }
+  .min_bg_grey .server_case ul li:hover {
+    background: #FB9F24; }
+  .min_bg_grey .server_case ul li .icon_mins_1 {
+    background: url("../image/icon_mins_1.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_1.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_2 {
+    background: url("../image/icon_mins_2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_2.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_3 {
+    background: url("../image/icon_mins_3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_3.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_4 {
+    background: url("../image/icon_mins_4.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_4.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_5 {
+    background: url("../image/icon_mins_5.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_5.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_6 {
+    background: url("../image/icon_mins_6.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_6.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_7 {
+    background: url("../image/icon_mins_7.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_7.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_8 {
+    background: url("../image/icon_mins_8.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_8.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_9 {
+    background: url("../image/icon_mins_9.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_9.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_10 {
+    background: url("../image/icon_mins_10.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_10.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_11 {
+    background: url("../image/icon_mins_11.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_11.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_12 {
+    background: url("../image/icon_mins_12.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_12.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_13 {
+    background: url("../image/icon_mins_13.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_13.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_14 {
+    background: url("../image/icon_mins_14.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_14.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_15 {
+    background: url("../image/icon_mins_15.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_15.png*/) center no-repeat;
+    background-size: 100% auto; }
+  .min_bg_grey .server_case ul li .icon_mins_16 {
+    background: url("../image/icon_mins_16.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_mins_16.png*/) center no-repeat;
+    background-size: 100% auto; }
+
+.store_min_bottom {
+  text-align: center; }
+  .store_min_bottom .title {
+    padding-top: 55px;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 25px; }
+  .store_min_bottom ul {
+    margin-bottom: 105px; }
+    .store_min_bottom ul li {
+      width: 255px;
+      height: 185px;
+      margin: 0 20px;
+      display: inline-block;
+      vertical-align: top; }
+      .store_min_bottom ul li .content p {
+        font-size: 22px;
+        color: #666;
+        margin: 10px 0 15px; }
+      .store_min_bottom ul li .content span {
+        font-size: 14px;
+        color: #666666; }
+
+.group_banner {
+  background: url("../image/group_banner.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_banner.png*/) center no-repeat; }
+  .group_banner .wh_1200 {
+    min-height: 600px;
+    position: relative; }
+    .group_banner .wh_1200 .btn_ty {
+      font-size: 18px;
+      width: 160px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 4px;
+      display: inline-block;
+      position: absolute;
+      left: 15%;
+      bottom: 20%;
+      color: #FF4500;
+      background: #fff;
+      text-align: center; }
+
+.group_sys .group_top1 {
+  background: #F0F0F0;
+  text-align: center;
+  padding-bottom: 120px; }
+  .group_sys .group_top1 .title {
+    padding-top: 120px;
+    font-size: 32px;
+    color: #333333; }
+  .group_sys .group_top1 .content {
+    width: 1050px;
+    color: #666666;
+    font-size: 20px;
+    margin: 15px auto 75px;
+    line-height: 35px; }
+  .group_sys .group_top1 ul.three_con li {
+    width: 340px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px; }
+    .group_sys .group_top1 ul.three_con li p {
+      font-size: 28px;
+      color: #333333;
+      margin: 30px 0 15px; }
+    .group_sys .group_top1 ul.three_con li span {
+      font-size: 18px;
+      color: #666666; }
+.group_sys .group_top2 {
+  text-align: center;
+  padding-bottom: 65px; }
+  .group_sys .group_top2 p.title {
+    padding-top: 95px;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 55px; }
+.group_sys .group_top3 {
+  background: #F0F0F0;
+  text-align: center;
+  padding-bottom: 80px; }
+  .group_sys .group_top3 p.title {
+    padding-top: 70px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #333333; }
+  .group_sys .group_top3 .content {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 60px; }
+  .group_sys .group_top3 ul li {
+    width: 185px;
+    height: 180px;
+    display: inline-block;
+    margin: 20px;
+    background: #fff;
+    border-radius: 10px;
+    vertical-align: top; }
+    .group_sys .group_top3 ul li .img {
+      height: 85px;
+      margin-top: 25px; }
+    .group_sys .group_top3 ul li img {
+      display: inline-block; }
+    .group_sys .group_top3 ul li p {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #000000; }
+.group_sys .bottom1 {
+  background: url("../image/group_tpl_1.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_1.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .bottom2 {
+  background: url("../image/group_tpl_2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_2.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .bottom3 {
+  background: url("../image/group_tpl_3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_3.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .bottom4 {
+  background: url("../image/group_tpl_4.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_4.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .bottom5 {
+  background: url("../image/group_tpl_5.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_5.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .bottom6 {
+  background: url("../image/group_tpl_6.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/group_tpl_6.png*/) center no-repeat;
+  min-height: 700px; }
+.group_sys .content .detail p.title {
+  font-size: 32px;
+  color: #333;
+  padding-top: 270px;
+  margin-bottom: 60px; }
+.group_sys .content .detail p {
+  font-size: 16px;
+  color: #666; }
+  .group_sys .content .detail p span {
+    font-size: 18px;
+    color: #FF6269; }
+.group_sys .left_content .detail {
+  margin-left: 700px; }
+
+.partner_banner {
+  background: url("../image/partner_banner.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_banner.png*/) center no-repeat;
+  min-height: 540px;
+  background-size: cover;
+}
+
+.partner .partner_top1, .partner .partner_top4 {
+  background: url("../image/partner_top_bg.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_top_bg.png*/) center no-repeat;
+  min-height: 800px; }
+.partner .partner_top2 {
+  background: #FBB045; }
+  .partner .partner_top2 p {
+    color: #fff !important; }
+.partner .partner_top3 {
+  background: url("../image/bg3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/bg3.png*/) center repeat-y;
+  min-height: 800px; }
+.partner .partner_con {
+  text-align: center; }
+  .partner .partner_con .title {
+    padding-top: 80px;
+    font-size: 40px;
+    color: #676767; }
+    .partner .partner_con .title span {
+      display: inline-block;
+      border-bottom: 1px solid #E9E9E9; }
+  .partner .partner_con .eng {
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 30px;
+    margin-bottom: 20px; }
+  .partner .partner_con .txt {
+    font-size: 20px;
+    color: #676767;
+    margin-bottom: 70px; }
+  .partner .partner_con .cont ul {
+    width: 580px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 60px; }
+    .partner .partner_con .cont ul li {
+      height: 60px;
+      line-height: 60px;
+      list-style: initial;
+      color: #569BE1;
+      font-size: 24px; }
+      .partner .partner_con .cont ul li p {
+        color: #676767; }
+  .partner .partner_con .contant_detail {
+    text-align: center; }
+    .partner .partner_con .contant_detail li {
+      width: 285px;
+      height: 460px;
+      display: inline-block;
+      background: #fff;
+      margin: 0 40px 40px;
+      position: relative; }
+      .partner .partner_con .contant_detail li .left_top {
+        background: url("../image/partner_left_t.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_left_t.png*/) center no-repeat;
+        background-size: 100% auto;
+        width: 85px;
+        height: 83px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .partner .partner_con .contant_detail li .img {
+        margin-top: 15px; }
+      .partner .partner_con .contant_detail li .name {
+        font-size: 20px;
+        color: #333333;
+        margin-top: 5px;
+        margin-bottom: 25px; }
+      .partner .partner_con .contant_detail li .contant {
+        width: 240px;
+        text-align: left;
+        margin: 0 auto 10px; }
+        .partner .partner_con .contant_detail li .contant p {
+          height: 35px;
+          line-height: 35px;
+          color: #333;
+          vertical-align: middle; }
+          .partner .partner_con .contant_detail li .contant p:nth-child(2) {
+            border-top: 1px dashed #EBEBEB;
+            border-bottom: 1px dashed #EBEBEB; }
+          .partner .partner_con .contant_detail li .contant p em {
+            width: 25px;
+            height: 24px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px; }
+          .partner .partner_con .contant_detail li .contant p em.icon_p1 {
+            background: url("../image/partner_icon_1.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_icon_1.png*/) center no-repeat; }
+          .partner .partner_con .contant_detail li .contant p em.icon_p2 {
+            background: url("../image/partner_icon_2.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_icon_2.png*/) center no-repeat; }
+          .partner .partner_con .contant_detail li .contant p em.icon_p3 {
+            background: url("../image/partner_icon_3.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/partner_icon_3.png*/) center no-repeat; }
+      .partner .partner_con .contant_detail li .bt_com {
+        background: #FF7B33;
+        height: 140px; }
+        .partner .partner_con .contant_detail li .bt_com p {
+          color: #fff;
+          padding-top: 45px;
+          margin-bottom: 20px; }
+        .partner .partner_con .contant_detail li .bt_com a.btn_zx {
+          width: 100px;
+          display: inline-block;
+          height: 35px;
+          line-height: 35px;
+          text-align: center;
+          border: 2px solid #fff;
+          border-radius: 30px;
+          color: #fff;
+          font-size: 16px; }
+  .partner .partner_con .company_detail {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+    .partner .partner_con .company_detail li {
+      width: 360px;
+      height: 40px;
+      display: inline-block;
+      font-size: 20px;
+      line-height: 40px;
+      background: #6E707B;
+      border-radius: 20px;
+      color: #fff; }
+      .partner .partner_con .company_detail li:nth-child(2) {
+        margin: 0 50px; }
+
+.shop_min_banner {
+  background: url("../image/shop_min_banner.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/shop_min_banner.png*/) center no-repeat;
+  min-height: 530px;
+  color: #fff;
+  text-align: center; }
+  .shop_min_banner .title {
+    padding-top: 80px;
+    line-height: 40px;
+    font-size: 36px;
+    margin-bottom: 25px; }
+  .shop_min_banner .title_next {
+    font-size: 20px; }
+
+.shop_min_con .shop_min_detail {
+  text-align: center; }
+  .shop_min_con .shop_min_detail .title {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #333; }
+  .shop_min_con .shop_min_detail .next_title {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px; }
+  .shop_min_con .shop_min_detail .next_content {
+    font-size: 18px;
+    color: #888888;
+    line-height: 30px;
+    margin-top: 36px;
+    margin-bottom: 75px; }
+  .shop_min_con .shop_min_detail .imgs li {
+    width: 145px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 75px 50px; }
+    .shop_min_con .shop_min_detail .imgs li p {
+      font-size: 20px;
+      color: #333;
+      margin-top: 20px; }
+  .shop_min_con .shop_min_detail .btns {
+    padding-bottom: 45px; }
+    .shop_min_con .shop_min_detail .btns a.btn {
+      background: #FF4500;
+      color: #fff; }
+  .shop_min_con .shop_min_detail .fourth li {
+    width: 240px;
+    height: 360px;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+    margin: 0 20px; }
+    .shop_min_con .shop_min_detail .fourth li .img {
+      margin-top: 40px; }
+    .shop_min_con .shop_min_detail .fourth li .tit {
+      margin-top: 30px;
+      font-size: 24px;
+      color: #333; }
+    .shop_min_con .shop_min_detail .fourth li .con {
+      width: 200px;
+      margin: 0 auto;
+      margin-top: 30px;
+      text-align: left;
+      font-size: 14px;
+      color: #333; }
+.shop_min_con .top1 img {
+  vertical-align: bottom; }
+.shop_min_con .top2 {
+  background: #F8F8F8; }
+.shop_min_con .top3 {
+  background: url("../image/shop_min_bg.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/shop_min_bg.png*/) center no-repeat;
+  min-height: 770px; }
+.shop_min_con .top4 img {
+  margin-left: 60px;
+  margin-top: 20px; }
+.shop_min_con .top4 a.btn {
+  margin-left: 10px; }
+
+.float_con {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  z-index: 5;
+  display: none; }
+  .float_con li {
+    cursor: pointer; }
+
+.pop_con {
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  height: 100%;
+  top: 0; }
+  .pop_con .shade {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 10; }
+  .pop_con .shade_detail {
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    position: relative;
+    z-index: 111;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center; }
+    .pop_con .shade_detail img {
+      margin-bottom: 10px; }
+    .pop_con .shade_detail .icon_close {
+      background: url("../image/icon-close.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon-close.png*/) center no-repeat;
+      background-size: 100% auto;
+      width: 49px;
+      height: 47px;
+      display: inline-block;
+      position: absolute;
+      right: -24px;
+      top: -22px;
+      cursor: pointer; }
+    .pop_con .shade_detail .title {
+      padding-top: 30px;
+      font-size: 20px;
+      margin-bottom: 20px; }
+    .pop_con .shade_detail .kf {
+      width: 545px;
+      display: block;
+      margin: 0 auto;
+      border-top: 1px solid #ECECEC;
+      padding: 20px 10px;
+      text-align: left; }
+      .pop_con .shade_detail .kf .tit {
+        font-size: 16px;
+        color: #333; }
+      .pop_con .shade_detail .kf ul {
+        margin-top: 10px; }
+        .pop_con .shade_detail .kf ul li {
+          width: 160px;
+          height: 30px;
+          line-height: 30px;
+          display: inline-block;
+          margin-right: 26px; }
+          .pop_con .shade_detail .kf ul li:nth-child(3n) {
+            margin-right: 0; }
+          .pop_con .shade_detail .kf ul li span {
+            font-size: 16px;
+            color: #333333; }
+          .pop_con .shade_detail .kf ul li em.icon_tel {
+            background: url("../image/icon_tel.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/icon_tel.png*/) center no-repeat;
+            background-size: 100% auto;
+            width: 26px;
+            height: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 5px; }
+
+/**
+* #service
+*/
+/**/
+#service .o-service,
+#service .c-service {
+  position: fixed;
+  z-index: 9000;
+  right: 0;
+  top: 120px;
+  width: 62px;
+  height: 180px;
+  background: #fff;
+  border-radius: 0 26px 0 26px;
+  box-shadow: -1px 0 10px 1px rgba(0, 0, 0, 0.1), 1px 0 10px 1px rgba(0, 0, 0, 0.1), 0 -1px 10px rgba(0, 0, 0, 0.1), 0 1px 10px 1px rgba(0, 0, 0, 0.1); }
+
+#service .o-service {
+  cursor: pointer; }
+
+#service img {
+  width: 100%; }
+
+#service .o-service > .o-imgwrap,
+#service .c-service > .c-imgwrap {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #CC453E url("../image/layout/obtn.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/obtn.png*/) no-repeat 11px center;
+  position: absolute;
+  top: -14px;
+  left: -14px;
+  cursor: pointer; }
+
+#service .o-service > .wrap {
+  width: 40px;
+  height: 40px;
+  margin: 23px auto 0;
+  cursor: pointer; }
+
+#service .o-service > .o-text {
+  width: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #cc423b;
+  margin: 7px auto 0;
+  line-height: 25px;
+  font-weight: 500; }
+
+/**/
+#service .c-service {
+  width: 120px;
+  height: 420px;
+  bottom: 30px;
+  right: -134px; }
+
+#service .c-service > .c-imgwrap {
+  background: #CC453E url("../image/layout/cbtn.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/cbtn.png*/) no-repeat 12px center; }
+
+#service .c-service > .wrap {
+  width: 82px;
+  height: 82px;
+  margin: 18px auto 0;
+  cursor: pointer; }
+
+#service .c-service > .c-text {
+  width: 100px;
+  text-align: center;
+  margin: 7px auto 0;
+  line-height: 25px;
+  font-weight: 500; }
+
+#service .c-service > .c-text .qq-text {
+  font-size: 16px;
+  color: #cc423b;
+  border-bottom: 2px solid #E5E5E5;
+  padding-bottom: 10px; }
+
+#service .c-service > .c-text .qqx {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 2px solid #E5E5E5;
+  cursor: pointer; }
+
+#service .c-service > .c-text .qqx > .imgwrap {
+  width: 28px;
+  height: 42px;
+  background: url("../image/layout/xqq_07.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/xqq_07.png*/);
+  float: left; }
+
+#service .c-service > .c-text .qqx > span,
+#service .c-service > .c-text .qqt > p {
+  font-size: 14px;
+  color: #6d6d6d; }
+
+#service .c-service > .c-text .qqt {
+  width: 100%;
+  margin-top: 10px; }
+
+#service .c-service > .c-text .qqt > p {
+  text-align: left;
+  line-height: 20px; }
+
+#service .c-service > .c-text .qqt > p.call-tell {
+  color: #cc423b;
+  width: 107px; }
+
+#top {
+  width: 45px;
+  height: 43px;
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+  border-radius: 5px;
+  background: #666;
+  cursor: pointer;
+  overflow: hidden;
+  display: none; }
+
+#top img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 7px;
+  margin-top: -44px;
+  transition: all .3s; }
+
+
+.shadow{
+	width: 531px;
+	height: 441px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: transparent;
+}
+.shadowBox{
+	position: absolute;
+	left: 0;
+	right:0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 500px;
+	height: 400px;
+	box-shadow:0px 0px 20px 0px rgba(0,0,0,0.6);
+	background: #ffffff;
+}
+.closeShadow{
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	z-index: 999;
+}
+.closeShadow img{
+	width: 44px;
+	height: 44px;
+}
+.shadowForm{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 55px;
+}
+.formTitle{
+	width: 100%;
+	height: 90px;
+	line-height: 90px;
+	font-size: 30px;
+	color: #2e3642;
+	text-align: center;
+}
+.telbox,.industry,.code,.prompt{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.telbox p,.industryLable,.codeLable{
+	float: left;
+	width: 90px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #bfbfbf;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	color: #999999;
+	font-size: 16px;
+	line-height: 38px;
+	text-align: center;
+}
+.telbox input{
+	float: left;
+	width:calc(100% - 90px);
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #bfbfbf;
+	border-left: none;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #999999;
+	font-size: 16px;
+	line-height: 38px;
+	padding-left: 10px;
+	background: #f9f9f9;
+}
+.selectIndustry{
+	width: 250px;
+	height: 40px;
+	float: left;
+	box-sizing: border-box;
+	border-bottom: 1px solid #bfbfbf;
+	border-top: 1px solid #bfbfbf;
+	color: #999999;
+	font-size: 16px;
+	line-height: 38px;
+	background: #f9f9f9;
+	position: relative;
+}
+.selectIndustry p{
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-left: 1px solid #bfbfbf;
+	border-right: 1px solid #bfbfbf;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+
+
+}
+.selectIndustry ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	border: 1px solid #bfbfbf;
+	border-top: none;
+	border-bottom: none;
+	box-sizing: border-box;
+}
+.selectIndustry ul li{
+	width: 100%;
+	height: 39px;
+	border-bottom: 1px solid #bfbfbf;
+	box-sizing: border-box;
+	padding-left: 12px;
+	background: #f9f9f9;
+	cursor: pointer;
+	font-size: 14px;
+}
+.selectIndustry ul li:hover{
+	background: #ffffff;
+}
+
+.selectBtn{
+	float: left;
+	width: calc(100% - 340px);
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #bfbfbf;
+	border-left: none;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	cursor: pointer;
+	background: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.selectBtn p{
+	width: 16px;
+	height: 10px;
+	background: #f9f9f9 url("../image/layout/vicon.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/vicon.png*/) no-repeat;
+	transition: all .3s ease-in-out;
+}
+.code{
+	margin-bottom: 0;
+}
+.code input{
+	float: left;
+	width:160px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #bfbfbf;
+	border-left: none;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #999999;
+	font-size: 16px;
+	line-height: 38px;
+	padding-left: 10px;
+	background: #f9f9f9;
+
+}
+.codeImg{
+	float: left;
+	margin-left: 16px;
+	border: 1px solid #bfbfbf;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: calc(100% - 266px);
+	height: 40px;
+	background: #f3fbfe;
+}
+.prompt{
+	width: 100%;
+	height: 60px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.prompt div{
+	width: 20px;
+	height: 20px;
+	background: url("../image/layout/prompt.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/layout/prompt.png*/);
+}
+.prompt p{
+	margin-left: 9px;
+	color: #999999;
+	font-size: 14px;
+}
+.applyBtn{
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	line-height: 50px;
+	text-align: center;
+	background: -webkit-linear-gradient(left, #ff5b58 , #ff9626); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ff5b58, #ff9626); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ff5b58, #ff9626); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #ff5b58 , #ff9626);
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.wm_panel1{
+  width: 100%;
+  height: 820px;
+  background: url("../image/wm_bg1.jpg"/*tpa=http://xcx.18weiquan.com/assets/www/image/wm_bg1.jpg*/) center no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+}
+.wm_panel1 .container{
+  padding-top: 135px;
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+.wm_panel1 .container .pic1 img{
+  margin:0 auto;
+  display: block;
+}
+.wm_panel1 .container .pic1{
+  margin-bottom: 100px;
+}
+.wm_panel1 .nav ul{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+.wm_panel1 .nav ul li{
+  padding:0 60px;
+  box-sizing: border-box;
+}
+.wm_panel1 .nav ul li img{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.border-right{
+  border-right: 1px solid rgba(104, 101, 100, 0.5);
+}
+.wm_panel2{
+  height: 900px;
+  box-sizing: border-box;
+}
+.wm_panel2 .container{
+  width: 1100px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 60px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wm_panel2 .subTitle{
+  font-size: 30px;
+  color: #999999;
+  margin-bottom: 15px;
+}
+.wm_panel2 .mainTitle{
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 65px;
+}
+.wm_panel3{
+  width: 100%;
+  height: 800px;
+  background: url("../image/wm_bg2.jpg"/*tpa=http://xcx.18weiquan.com/assets/www/image/wm_bg2.jpg*/) center no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+}
+.wm_panel3 .subTitle{
+  font-size: 30px;
+  color: #999999;
+  margin-bottom: 15px;
+}
+.wm_panel3 .container{
+  width: 1100px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 60px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wm_panel3 .mainTitle{
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 65px;
+}
+.wm_panel4{
+  width: 100%;
+  height: 800px;
+  background: url("../image/wm_bg3.jpg"/*tpa=http://xcx.18weiquan.com/assets/www/image/wm_bg3.jpg*/) center no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+}
+.wm_panel4 .container{
+  width: 1100px;
+  margin:0 auto;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wm_panel4 .title{
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+.wm_panel4 .title .t1{
+  color: #999999;
+  font-size: 30px;
+}
+.wm_panel4 .title .t2{
+  margin: 10px 0;
+  font-size: 36px;
+  color: #333333;
+}
+.wm_panel4 .title .t3{
+  color: #666666;
+  font-size: 28px;
+}
+.wm_panel4 ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wm_panel4 ul li{
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 365px;
+  height: 355px;
+  margin-right: 2px;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+.wm_panel4 ul li .text{
+  margin-top: 15px;
+  color: #fff;
+  font-size: 28px;
+}
+.wm_panel5{
+  width: 100%;
+  height: 800px;
+  background: url("../image/wm_bg4.jpg"/*tpa=http://xcx.18weiquan.com/assets/www/image/wm_bg4.jpg*/) center no-repeat;
+  background-size:cover;
+  box-sizing: border-box;
+}
+.wm_panel5 .subTitle{
+  font-size: 30px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+.wm_panel5 .container{
+  width: 1100px;
+  margin:0 auto;
+  text-align: center;
+  padding-top: 45px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.wm_panel5 .mainTitle{
+  font-size: 36px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.wm_panel5 .textGroup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.wm_panel5 .textGroup .t1{
+  margin-right: 45px;
+}
+/*# sourceMappingURL=style.css.map */

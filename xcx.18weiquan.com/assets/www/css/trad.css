@@ -1,0 +1,161 @@
+.trad_banner{
+	width: 100%;
+	height: 822px;
+	background: url("../image/trade_banner.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/trade_banner.png*/) center no-repeat;
+	position: relative;
+}
+.trad_banner a{
+	position: absolute;
+	bottom: 34px;
+	left: 47%;
+	display: block;
+	color: #fff;
+	width: 100px;
+	height: 36px;
+	border-radius:20px ;
+	border:1px solid #fff ;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+}
+.trad01_detail{
+	width: 100%;
+	min-height: 680px;
+	overflow: hidden;
+}
+.trad01_detail h2{
+	font-size: 30px;
+	color: #333333;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 95px;
+}
+.trad01_detail p{
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+}
+.trad01_detaillist{
+	width: 100%;
+	margin-top: 65px;
+	
+}
+.trad01_detaillist ul{
+	width: 100%;
+	
+}
+.trad01_detaillist li{
+	width: calc(100% / 3);
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+.trad01_detaillist li img{
+	width: 240px;
+}
+.trad01_detaillist li p{
+	margin-top: 16px;
+	font-size: 16px;
+	color: #666;
+}
+.trad02_detail{
+	width: 100%;
+	height: 720px;
+	background: url("../image/trade_banner02.png"/*tpa=http://xcx.18weiquan.com/assets/www/image/trade_banner02.png*/) center no-repeat;
+	overflow: hidden;
+}
+.trad02_detail h2{
+	margin-top: 73px;
+	color: #333;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+}
+.trad03_detail{
+	width: 100%;
+	height: auto;
+}
+.trad03_detail h2{
+	background: #fff;
+	height: 152px;
+	line-height: 152px;
+	text-align: center;
+	font-weight: 100;
+	font-size:30px ;
+	color: #333333;
+}
+.trad04_detail{
+	width: 100%;
+	height: 400px;
+	background: #f7f7f7;
+	overflow: hidden;
+}
+.trad04_le{
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+.trad04_ri{
+	width: 600px;
+	height: 400px;
+	float: right;
+	
+}
+.trad04_ri p{
+	margin-top: 155px;
+	font-size: 22px;
+	color: #666666;
+}
+.trad05_detail{
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	overflow: hidden;
+}
+.trad05_le{
+	width: 600px;
+	height:400px;
+	float: left;
+}
+.trad05_ri{
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+.trad05_le p{
+	margin-top: 155px;
+	font-size: 22px;
+	color: #666666;
+}
+.tradbox{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+.trade_bottom{
+	background: #fff;
+}
+.trad04_ri a{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    background: #FF4500;
+    color: #fff;
+  
+}
+.trad05_le a{
+	 display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25px;
+    background: #FF4500;
+    color: #fff;
+}
