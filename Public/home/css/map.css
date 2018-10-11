@@ -1,0 +1,381 @@
+/* 地图 表单  start */
+.form_msg {
+    height: 400px;
+    width: 420px;
+    position: absolute;
+    padding-left: 40px;
+    background-color: #666;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+*::-webkit-input-placeholder {
+    color: #fff;
+}
+
+*:-moz-placeholder {
+    color: #fff;
+}
+
+*:-ms-input-placeholder {
+    /* IE10+ */
+    color: #fff;
+}
+
+.form_msg dl {
+    position: relative;
+    z-index: 3;
+}
+
+.form_msg dt {
+    font-size: 18px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.form_msg dd {
+    margin-top: 10px;
+}
+
+.form_msg .text {
+    border: 1px solid #cccccc;
+    background: transparent;
+    color: #ccc;
+    height: 32px;
+    width: 182px;
+    line-height: 32px;
+    text-indent: 12px;
+    margin-right: 14px;
+}
+
+.form_msg .text:focus {
+    border-color: #fff;
+    color: #fff;
+}
+
+.form_msg .textarea {
+    color: #ccc;
+    line-height: 32px;
+    padding-left: 12px;
+}
+
+.form_msg .sub_btn {
+    font-size: 14px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    height: 38px;
+    width: 118px;
+    line-height: 36px;
+    margin-right: 14px;
+    *margin-left: 12px;
+    filter: chroma(color=#000000);
+    cursor: pointer;
+}
+
+.form_msg textarea {
+    width: 371px;
+    border: 1px solid #ccc;
+    background: transparent;
+    height: 100px;
+    color: #ccc;
+    resize: none;
+    *margin-left: 12px;
+    overflow: auto;
+}
+
+.form_msg textarea:focus {
+    color: #fff;
+    border-color: #fff;
+    outline: none;
+}
+/* 地图 表单  end */
+
+.next2 {
+width:100%;
+height:400px;
+margin-top:25px;
+border:2px solid red;
+}
+
+/* part6; 项目服务 start*/
+.part-head {
+    text-align: center;
+    padding-top: 42px;
+    margin-bottom:60px;
+}
+.Tenglish {
+    font-size:18px;
+    color:#808080;
+}
+.part-head h3 {
+font-size:28px;
+color:#333;
+font-weight: 400;
+}
+.ourBox {
+    /* border:1px solid red; */
+    width:750px;
+    margin:0 auto;
+}
+.ours {
+font-size:14px;
+color:#333;
+line-height:40px;
+margin-top:10px;
+}
+.part6 {
+    /* height:585px; */
+    background-color: #fff;
+}
+
+.part6 .detail {
+    margin: 30px auto 60px;
+    /* border:1px solid red; */
+}
+
+.part6 .detail li {
+    float: left;
+    width: 240px;
+    box-shadow: 2px -2px 8px #f6f6f6
+}
+.part6 .detail li:not(:first-child) {
+    margin-left: 80px;
+
+}
+
+.part6 .detail li .detail-img {
+    width: 240px;
+    height: 170px;
+    position: relative;
+    overflow: hidden
+}
+
+.part6 .detail li .detail-img .shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f3576;
+    background: rgba(31, 53, 118, .5);
+    filter: alpha(opacity=50);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 170px
+}
+
+.part6 .detail li .detail-txt {
+    /* height: 160px; */
+    box-sizing: border-box;
+    /* padding: 17px 15px 30px 22px; */
+    background-color: #f5f6f7;
+    color: #6c6c6c;
+    width: 240px;
+    height: 50px;
+    padding: 7px;
+}
+
+.part6 .detail li.fir-li {
+    /* margin-left: 50px */
+}
+
+.part6 li:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s
+    }
+    
+.part6 li:hover .detail-img .shade {
+    background-color: #536ebc;
+    background: rgba(83, 110, 188, .5);
+    filter: alpha(opacity=50);
+}
+/* part6 项目服务 end*/
+
+/* 服务范围 start*/
+.ser_scope {
+background: #f7f7f7;
+padding-bottom: 70px;
+}
+
+.picBox {
+width: 1200px;
+margin: 40px auto;
+}
+
+.picBox li {
+float: left;
+position: relative;
+width: 400px;
+display: table;
+}
+
+.picBox .ser_info {
+position: absolute;
+font-size: 16px;
+color: #333;
+line-height: 40px;
+text-align: center;
+width: 100%;
+left: 0;
+}
+
+.picBox .s1 .ser_info {
+bottom: 0;
+}
+
+.picBox .s3 .ser_info {
+top: 0;
+}
+
+.picBox .s5 .ser_info {
+bottom: 0;
+}
+
+.picBox .ser_shade {
+background: #ccc;
+opacity: 0.6;
+filter: alhpa(opacity=60);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.picBox h2 {
+font-size: 16px;
+color: #333;
+font-weight: normal;
+position: relative;
+z-index: 2;
+}
+
+.picBox .s2:after {
+height: 0;
+width: 0;
+content: "";
+position: absolute;
+left: -20px;
+top: 50%;
+border-width: 10px;
+border-style: dashed solid dashed dashed;
+border-color: transparent #79acd9 transparent transparent;
+}
+
+.picBox .s4:after {
+height: 0;
+width: 0;
+content: "";
+position: absolute;
+right: -20px;
+top: 50%;
+z-index: 2;
+border-width: 10px;
+border-style: dashed dashed dashed solid;
+border-color: transparent transparent transparent #79acd9;
+}
+
+.picBox .s6:after {
+height: 0;
+width: 0;
+content: "";
+position: absolute;
+left: 50%;
+top: -20px;
+border-width: 10px;
+border-style: dashed dashed solid dashed;
+border-color: transparent transparent #79acd9 transparent;
+}
+
+.picBox .intro {
+position: absolute;
+left: 0;
+top: 0;
+font-size: 14px;
+line-height: 26px;
+color: #fff;
+margin: auto 28px;
+padding-top: 36px;
+}
+
+.picBox dl {
+position: absolute;
+left: 0;
+top: 0;
+font-size: 14px;
+line-height: 26px;
+color: #fff;
+margin: auto 38px;
+padding-top: 36px;
+}
+
+.picBox dt {
+font-size: 18px;
+margin-bottom: 8px;
+}
+
+.picBox dd {
+display: list-item;
+list-style-type: circle;
+white-space: nowrap;
+}
+
+.picBox li img {
+width: 400px;
+height: 220px;
+}
+
+.sp_box {
+margin-top: 40px;
+}
+
+.picScroll-left {
+width: 1200px;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+padding-bottom: 90px;
+}
+
+.picScroll-left .hd {
+overflow: hidden;
+position: absolute;
+bottom: 0;
+width: 100%;
+text-align: center;
+z-index: 2;
+
+}
+
+.picScroll-left .hd a {
+display: inline-block;
+font-size: 20px;
+font-weight: 200;
+color: #999;
+line-height: 38px;
+border: 1px solid #ccc;
+width: 80px;
+text-align: center;
+margin: 0 5px;
+cursor: pointer;
+}
+
+.picScroll-left .hd a:hover {
+color: #79acd9;
+border-color: #79acd9;
+}
+
+.changeImg38 {
+    /* border:1px solid red; */
+}
+/* 服务范围 end */

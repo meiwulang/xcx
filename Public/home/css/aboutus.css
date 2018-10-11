@@ -1,0 +1,253 @@
+/*banner区域*/
+.aboutus-banner {
+    height:400px;
+    width:100%;
+}
+.aboutus-banner img {
+    width:100%;
+    height:100%;
+}
+/* 公司概况 */
+ .company-profile {
+   margin-top:30px;
+}
+ .company-title {
+    padding-top:30px;
+    text-align: center;
+}
+.company-title  p {
+    font-size:18px;
+    color:#808080;
+}
+ .company-title h2 {
+   font-size: 28px;
+    color:#333;
+} 
+.company-title .lineae {
+    width:205px;
+    height: 2px;
+    background-color: #808080;
+    margin: 0 auto;
+    margin-top:20px;
+    position: relative;
+}
+ .company-title .lineae::before {
+    position: absolute;
+    left:-20px;
+    top:-5px;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#808080;
+    border-radius:50%;
+
+}
+.company-title .lineae::after {
+    position: absolute;
+    right:-20px;
+    top:-5px;
+    content:'';
+    width:10px;
+    height:10px;
+    background-color:#808080;
+    border-radius:50%;
+
+}  
+/* 我们是谁 */
+ .profile {
+     margin-top:85px;
+    height:265px;
+    background-color:#f5f6f7;
+    padding-right:45px;
+    padding-top:25px;
+    box-sizing:border-box;
+    font-size:14px;
+    position: relative; 
+}
+.profile::before {
+    position: absolute;
+    top:-20px;
+    content: '';
+    width:49px;
+    height: 45px;
+}
+.company-des {
+    padding-left:550px;
+    position: relative;
+}
+.company-des::before {
+    left:450px;
+    background:url("../../../images/aboutus/marks2.png"/*tpa=http://www.18weiquan.com/images/aboutus/marks2.png*/) no-repeat;
+}
+.profile img {
+    position: absolute;
+    width:400px;
+    height:268px;
+}
+.company-des img {
+    left:20px;
+}
+.profile h2 {
+    font-size:24px;
+}
+.profile .subhead {
+    font-size:18px;
+    padding-bottom:10px;
+    position: relative;
+}
+.profile .subhead::after {
+    position: absolute;
+    bottom:0;
+    left:0;
+    content:'';
+    width:150px;
+    height: 2px;
+    background-color:#3fa3f9;
+}
+.profile .company-contro {
+    padding-top:10px;
+}  
+
+/* 我们能做什么 */
+.company-done {
+    padding-left:40px;
+    padding-right:550px;
+}
+.company-done::before {
+    left:50%;
+    background:url("../../../images/aboutus/marks1.png"/*tpa=http://www.18weiquan.com/images/aboutus/marks1.png*/) no-repeat;
+}
+.company-done img {
+    right:20px;
+}
+.company-method li {
+    float:left;
+    width:260px;
+    padding-left:20px;
+    line-height:30px;
+    position: relative;
+} 
+.company-method li::before {
+    position: absolute;
+    left:0;
+    top:10px;
+    content: '';
+    width:10px;
+    height: 10px;
+    border-radius:50%;
+    background-color:#3fa3f9;
+
+}
+.company-method li a {
+    color:#666;
+}
+.company-method li a:hover {
+    color:#3fa3f9;
+}
+/* 公司文化 */
+ .company-culture {
+    width:100%;
+    margin-top:100px;
+    background-color: #1d73d9;
+    height:570px;
+}
+ .culture-title p,.culture-title h2 {
+    color:#fff;
+}
+.culture-title .lineae, 
+.culture-title .lineae::before,
+.culture-title .lineae::after
+{
+    background-color:#fff;
+
+}
+.culture-content {
+    padding-top:50px;
+    position: relative;
+    height:446px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cultrue-des {
+    color:#fff;
+    width:595px;
+    position: absolute;
+    left:1551px; 
+}
+.cultrue-des h2 {
+    font-size:24px;
+}
+.cultrue-des .subhead{
+    font-size:16px;
+    padding-bottom:10px;
+    position: relative;
+}
+.cultrue-des .subhead::after {
+    position: absolute;
+    bottom:0;
+    left:0;
+    content:'';
+    width:300px;
+    height: 2px;
+    background-color:#3fa3f9;
+}
+.cultrue-des h3 span {
+  font-size:16px;
+  border-bottom:2px solid #fff;
+}
+.company-slogan {
+    font-size:14px;
+    padding-top:10px;
+}
+.company-slogan p:nth-child(2) {
+    margin-top:15px;
+}
+.values {
+    padding-top:50px;
+}
+.cultrue-img {
+    width:543px;
+    position: absolute;
+    right:1552px;
+} 
+/* 团队文化 */
+ .team-culture {
+    position: relative;
+}
+.team-swipe {
+    height:350px;
+    overflow: hidden;
+    position: relative
+}
+.team-swipe ul{
+    text-align: center;
+    width:3200px;
+    height:230px;
+    position: absolute;
+    left:-400px;
+}
+.team-swipe li {
+    float: left;
+    width:360px;
+    padding:0 20px;
+}
+.team-swipe li img{
+    margin-top:50px;
+    width:360px;
+    height:230px;
+}
+.team-swipe li  p {
+    padding-top:20px;
+}
+.arrow span {
+    position: absolute;
+    width:60px;
+    height:105px;
+    top:250px;
+}
+.arrow-left {
+    left: 40px;
+}
+.arrow-right {
+    right: 40px;
+} 

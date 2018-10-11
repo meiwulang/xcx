@@ -1,0 +1,423 @@
+/* 面包屑 */
+
+.advertising .area {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.advertising .bread-area {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.advertising .bread {
+    height: 74px;
+    line-height: 74px;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advertising .bread span {
+    float: left;
+    font-size: 16px;
+    color: #808080;
+}
+
+.advertising .bread ul li {
+    float: left;
+    padding-left: 10px;
+}
+
+.advertising .bread ul li a {
+    font-size: 16px;
+    color: #808080;
+}
+
+
+/* 介绍 */
+
+.area .intro {
+    height: 188px;
+    width: 100%;
+    text-align: center;
+}
+
+.area .intro h2 {
+    margin-top: 34px;
+    color: #333;
+    font-size: 30px;
+}
+
+.area .intro p {
+    margin: 0 80px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/* 广告形态 */
+
+
+/* 第一div */
+
+.content .content-top {
+    height: 724px;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+
+.content-top .content-area {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #f5f6f7;
+}
+
+.content-top .content-area .h5 {
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.content-area .h5 h5 {
+    position: absolute;
+    top: 16px;
+    left: 347px;
+    font-size: 30px;
+}
+
+
+/* 动画 */
+
+.content .content-top .content-top-detail {
+    width: 1200px;
+    height: 529px;
+    background: url("../images/weixin-advertising/beijin.png"/*tpa=http://www.18weiquan.com/Public/home/images/weixin-advertising/beijin.png*/) no-repeat;
+    margin-top: 60px;
+}
+
+.detail-icon {
+    height: 530px;
+    width: 100%;
+    margin-left: 24px;
+    border: 1px solid #f5f6f7;
+    position: relative;
+}
+
+.icon-bg {
+    width: 841px;
+    height: 296px;
+    background: url("../images/weixin-advertising/xuxian.png"/*tpa=http://www.18weiquan.com/Public/home/images/weixin-advertising/xuxian.png*/) no-repeat;
+    margin-top: 102px;
+    margin-left: 14px;
+    opacity: 0;
+}
+
+@keyframes advScale {
+    0% {
+        opacity: 0
+    }
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.advScale {
+    animation: advScale 3000ms ease-out forwards;
+    -webkit-animation: advScale 3000ms ease-out forwards
+}
+
+.icon-img1 {
+    /* width: 420px;
+    height: 113px; */
+    width: 0;
+    height: 0;
+    float: left;
+    position: absolute;
+    top: 270px;
+    left: 112px;
+}
+
+.icon-img2 {
+    width: 0;
+    height: 0;
+    float: left;
+    position: absolute;
+    top: 260px;
+    left: 112px;
+}
+
+.icon-img3 {
+    width: 0;
+    height: 0;
+    float: left;
+    position: absolute;
+    top: 240px;
+    left: 112px;
+}
+
+
+/* 第一个div */
+
+.icon-top {
+    width: 778px;
+    height: 111px;
+    /* background-color: pink; */
+    position: absolute;
+    top: 52px;
+    left: 920px;
+    opacity: 0;
+}
+
+@keyframes iconTop {
+    0% {
+        opacity: 0
+    }
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.iconTOP {
+    animation: iconTop 2600ms forwards;
+    -webkit-animation: iconTop 2600ms forwards;
+}
+
+.icon-top h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.icon-top p {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 287px;
+}
+
+
+/* 第二个div */
+
+.icon-mid {
+    height: 111px;
+    position: absolute;
+    top: 192px;
+    left: 920px;
+    opacity: 0;
+}
+
+@keyframes iconMid {
+    0% {
+        opacity: 0
+    }
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.iconMid {
+    animation: iconMid 2600ms forwards;
+    -webkit-animation: iconMid 2600ms forwards;
+}
+
+.icon-mid h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.icon-mid p {
+    margin-top: 4px;
+    font-size: 16px;
+    width: 287px;
+}
+
+
+/* 第三个div */
+
+.icon-bot {
+    height: 111px;
+    position: absolute;
+    top: 335px;
+    left: 920px;
+    opacity: 0;
+}
+
+@keyframes iconBot {
+    0% {
+        opacity: 0
+    }
+    to {
+        transform: scale(1);
+        opacity: 1
+    }
+}
+
+.iconBot {
+    animation: iconBot 2600ms forwards;
+    -webkit-animation: iconBot 2600ms forwards;
+}
+
+.icon-bot h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.icon-bot p {
+    margin-top: 4px;
+    font-size: 16px;
+    width: 287px;
+}
+
+
+/* 投放支持 */
+
+.content-bottom {
+    width: 1200px;
+    height: 926px;
+    margin: 0 auto;
+}
+
+.content-bottom-top {
+    width: 1200px;
+    height: 236px;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.content-bottom-top p {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.content-bottom-top h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #333;
+    position: relative;
+}
+
+.content-bottom-top h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #3fa3f9;
+    position: absolute;
+    bottom: -16px;
+    left: 526px;
+}
+
+
+/* 投放下面的tab */
+
+.content-bottom-tab {
+    width: 926px;
+    height: 675px;
+    margin: 0 auto;
+}
+
+
+/* tab头 */
+
+.content-bottom-tab {
+    position: relative;
+}
+
+.content-bottom-tab ul {
+    background-color: #f5f6f7;
+    height: 60px;
+    line-height: 60px;
+}
+
+.content-bottom-tab ul li {
+    float: left;
+    font-size: 18px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.acrion {
+    color: #3fa3f9;
+    border-bottom: 3px solid #3fa3f9;
+}
+
+.content-tab1,
+.content-tab2,
+.content-tab3,
+.content-tab4 {
+    height: 615px;
+    width: 926px;
+    border-top: 1px solid #fff;
+}
+
+.content-tab1 {}
+
+.content-tab2 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab3 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab4 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab1 p,
+.content-tab2 p,
+.content-tab3 p,
+.content-tab4 p {
+    font-size: 16px;
+    color: #333;
+    margin: 34px 0 60px 0;
+    text-align: center;
+}
+
+.content-tab1 img,
+.content-tab2 img,
+.content-tab3 img,
+.content-tab4 img,
+{
+    width: 100%;
+}
+
+
+/* 提示 */
+
+.hint {
+    height: 110px;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+
+.hint .hint-area {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hint .hint-area img {
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.hint p {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 14px;
+}

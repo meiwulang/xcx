@@ -1,0 +1,412 @@
+.advertising .area {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.advertising .bread-area {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.advertising .bread {
+    height: 74px;
+    line-height: 74px;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advertising .bread span {
+    float: left;
+    font-size: 16px;
+    color: #808080;
+}
+
+.advertising .bread ul li {
+    float: left;
+    padding-left: 10px;
+}
+
+.advertising .bread ul li a {
+    font-size: 16px;
+    color: #808080;
+}
+
+.area .intro {
+    height: 188px;
+    width: 100%;
+    text-align: center;
+}
+
+.area .intro h2 {
+    margin-top: 34px;
+    color: #333;
+    font-size: 30px;
+}
+
+.area .intro p {
+    margin: 0 80px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #333;
+    font-size: 18px;
+    text-align: left;
+}
+
+.content ul li {
+    height: 500px;
+}
+
+
+/* 第一个li */
+
+.content ul li:nth-child(1) {
+    height: 650px;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+
+.content .content-area {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid #f5f6f7;
+}
+
+
+/* 第一个li标题部分 */
+
+.content-headline {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.content-area h6 {
+    position: absolute;
+    top: 14px;
+    left: 362px;
+    font-size: 30px;
+}
+
+.content-area .content-l {
+    margin-top: 60px;
+    padding: 0 78px;
+}
+
+
+/* 第一个li样式 */
+
+.content-area .content-l .content-left {
+    width: 300px;
+    height: 460px;
+    float: left;
+    position: relative;
+}
+
+.content-l .content-right {
+    float: left;
+    margin-left: 264px;
+}
+
+.content-l .content-right h1 {
+    margin-top: 80px;
+    font-size: 26px;
+    color: #333;
+    /* margin-left: -20px; */
+}
+
+.content-l .content-right h2 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.content-l .content-right p {
+    width: 460px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #808080;
+}
+
+
+/* 第二个 */
+
+.content-ll {
+    padding: 0 78px;
+    margin-top: 60px;
+}
+
+.content-ll .content-left {
+    float: left;
+    width: 742px;
+}
+
+.content-ll .content-left h1 {
+    margin-top: 90px;
+    font-size: 26px;
+    color: #333;
+}
+
+.content-ll .content-left p {
+    width: 444px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.content-ll .content-right {
+    float: left;
+    width: 300px;
+}
+
+.content-ll .content-right {
+    position: relative;
+}
+
+
+/* 第三个 */
+
+.content-lll {
+    padding: 0 78px;
+    margin-top: 60px;
+    background-color: #f5f6f7;
+}
+
+.content-area .content-lll {
+    margin-top: 40px;
+}
+
+.content-lll .content-left {
+    float: left;
+    width: 300px;
+    height: 440px;
+}
+
+.content-lll .content-right {
+    float: left;
+    margin-left: 264px;
+}
+
+.content-lll .content-right h1 {
+    margin-top: 100px;
+    font-size: 26px;
+    color: #333;
+}
+
+.content-lll .content-right p {
+    width: 460px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.content ul li:nth-child(3) {
+    background-color: #f5f6f7;
+}
+
+.content-lll .content-left {
+    position: relative;
+}
+
+.content-left .content-lll-little-img {
+    width: 300px;
+    height: 231px;
+    position: absolute;
+    top: 205px;
+    left: 18px;
+}
+
+
+/* 第四个li */
+
+.content-llll {
+    padding: 0 78px;
+}
+
+.content-llll .content-left {
+    float: left;
+    /* width: 742px; */
+}
+
+.content-llll .content-left h1 {
+    margin-top: 150px;
+    font-size: 26px;
+    color: #333;
+}
+
+.content-llll .content-left p {
+    width: 444px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #808080;
+}
+
+.content-llll .content-right {
+    float: left;
+    width: 300px;
+    margin-left: 226px;
+    position: relative;
+}
+
+.content-llll .content-right .content-llll-little-img {
+    width: 298px;
+    height: 258px;
+    position: absolute;
+    top: 77px;
+    right: -17px;
+}
+
+
+/* 投放支持 */
+
+.content-bottom {
+    width: 1200px;
+    height: 926px;
+    margin: 0 auto;
+}
+
+.content-bottom-top {
+    width: 1200px;
+    height: 236px;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.content-bottom-top p {
+    margin-top: 60px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.content-bottom-top h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #333;
+    position: relative;
+}
+
+.content-bottom-top h2::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #3fa3f9;
+    position: absolute;
+    bottom: -16px;
+    left: 526px;
+}
+
+
+/* 投放下面的tab */
+
+.content-bottom-tab {
+    width: 926px;
+    height: 675px;
+    margin: 0 auto;
+}
+
+
+/* tab头 */
+
+.content-bottom-tab {
+    position: relative;
+}
+
+.content-bottom-tab ul {
+    background-color: #f5f6f7;
+    height: 60px;
+    line-height: 60px;
+}
+
+.content-bottom-tab ul li {
+    float: left;
+    font-size: 18px;
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.acrion {
+    color: #3fa3f9;
+    border-bottom: 3px solid #3fa3f9;
+}
+
+.content-tab1,
+.content-tab2,
+.content-tab3,
+.content-tab4 {
+    height: 615px;
+    width: 926px;
+    border-top: 1px solid #fff;
+}
+
+.content-tab1 {}
+
+.content-tab2 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab3 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab4 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.content-tab1 p,
+.content-tab2 p,
+.content-tab3 p,
+.content-tab4 p {
+    font-size: 16px;
+    color: #333;
+    margin: 34px 0 60px 0;
+    text-align: center;
+}
+
+.content-tab1 img,
+.content-tab2 img,
+.content-tab3 img,
+.content-tab4 img,
+{
+    width: 100%;
+}
+
+
+/* 提示 */
+
+.hint {
+    height: 110px;
+    width: 100%;
+    background-color: #f5f6f7;
+}
+
+.hint .hint-area {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hint .hint-area img {
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.hint p {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 14px;
+}

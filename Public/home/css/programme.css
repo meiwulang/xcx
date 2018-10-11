@@ -1,0 +1,118 @@
+.banner {
+    width: 100%;
+    height: 400px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.programme {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.programme .programme-title {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+
+.programme-title h6 {
+    margin-top: 70px;
+    font-size: 18px;
+    color: #808080;
+}
+
+.programme-title h5 {
+    margin-top: 10px;
+    font-size: 28px;
+    color: #333;
+}
+
+.programme-content {
+    padding-top: 66px;
+}
+
+
+/* 实例 */
+
+.programme-content ul li {
+    width: 380px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 34px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.programme-content ul li a {
+    width: 380px;
+    height: 200px;
+}
+
+.programme-content ul li a img {
+    width: 100%;
+    width: 100%;
+}
+
+.programme-content ul li a:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s
+}
+
+.programme-content ul li:first-child {
+    margin-left: 0;
+}
+
+.programme-content ul li:nth-child(4) {
+    margin-left: 0;
+}
+
+.programme-content ul li img {
+    width: 100%;
+}
+
+.programme-content ul li div {
+    position: absolute;
+    top: 84px;
+    left: 73px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.programme-content ul li:nth-child(2) div {
+    position: absolute;
+    top: 84px;
+    left: 46px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.programme-content ul li:nth-child(3) div {
+    position: absolute;
+    top: 84px;
+    left: 46px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.programme-content ul li:nth-child(4) div {
+    position: absolute;
+    top: 84px;
+    left: 46px;
+    font-size: 24px;
+    color: #fff;
+}

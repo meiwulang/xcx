@@ -1,0 +1,155 @@
+.box-fixed {
+    width:100%;
+    height:120px;
+    position: fixed;
+    top:0;
+    z-index:4;
+}
+/*热线电话，关注微信*/
+.top {
+    width:100%;
+    height: 30px;
+    background-color:#eff0f2;
+    position: relative;
+}
+.cooperate {
+    text-align:right;
+    font-size:14px;
+}
+.wpic {
+    position: absolute;
+    right:215px;
+    z-index:8;
+    display: none;
+    /* border: 1px solid red; */
+    width:250px;
+    height:120px;
+}
+.wpic img {
+    width:250px;
+    height:120px;
+}
+.cooperate span {
+    display:inline-block;
+    padding-left:30px;
+    margin-top:7px;
+}
+.cooperate .hotline {
+    margin-right:40px;
+    background: url("../images/common/hotphone.png"/*tpa=http://www.18weiquan.com/Public/home/images/common/hotphone.png*/) no-repeat;
+    background-size: 16px 16px;
+    background-position: 6px 2px;
+}
+.cooperate .follow-weixin {
+    background: url("../images/common/weixin.png"/*tpa=http://www.18weiquan.com/Public/home/images/common/weixin.png*/) no-repeat;
+    background-size: 16px 16px;
+    background-position: 6px 2px;
+}
+/*顶部导航*/
+.head-nav {
+    position: relative;
+    background-color:#fff;
+}
+.nav {
+    height:90px;
+    
+}
+/*logo图标*/
+.nav .logo {
+    width:319px;
+    height:50px;
+    float: left;
+    margin-top:20px;
+    background:url("../images/common/logo.png"/*tpa=http://www.18weiquan.com/Public/home/images/common/logo.png*/) no-repeat;
+}
+.nav-list {
+   float:right;
+}
+.nav-list .headnav>li {
+    float:left;
+    width:120px;
+    font-size:16px;
+}
+ .headnav>li>a {
+    display: block;
+    width:100%;
+    height:100%;
+    line-height:90px;
+    color:#000;
+    text-align:center;
+    position: relative;
+}
+.headnav>li>a:after{
+    position: absolute;
+    bottom:2px;
+    content:'';
+    left:0;
+    transform: scaleX(0);
+    width:120px;
+    height:2px;
+    background-color:#3fa3f9; 
+    transition: all .6s cubic-bezier(.19,1,.22,1);
+}
+.headnav>li>a:hover {
+  color:#3fa3f9;
+}
+.headnav>li>a:hover:after {
+    color:#3fa3f9;
+    transform: scaleX(1);
+}
+.headnav>li>a.line {
+    color:#3fa3f9;
+}
+.headnav>li>a.line:after {
+    position: absolute;
+    bottom:2px;
+    content:'';
+    left:0;
+    width:120px;
+    height: 2px;
+    transform: scaleX(1);
+    background-color:#3fa3f9;
+}
+
+/* 广告资源隐藏部分 */
+.nav-hidden {
+    width:100%;
+    height:120px;
+    background-color:rgba(255,255,255,.7);
+    position: absolute;
+    left:0;
+    top:90px;
+    border-top:1px solid #3fa3f9;
+    box-sizing: border-box;
+    display:none;
+}
+.nav-hidden li{
+  float:left;
+  width:16.666%;
+  height:120px;
+  text-align:center;
+}
+.nav-hidden li a {
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+    display: block;
+    padding-top:30px;
+}
+.nav-hidden p {
+    margin-top:10px;
+}
+.nav-hidden li a.active {
+    color:#3fa3f9;
+    background-color: #fff;
+}
+.nav-hidden li img {
+    width:40px;
+    height: 40px;
+}
+
+/* 经典案例 */
+.container {
+    /* padding-top:120px; */
+    width:100%;
+}

@@ -1,0 +1,274 @@
+.appointment {
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background: url("../images/common/appointment.png"/*tpa=http://www.18weiquan.com/Public/home/images/common/appointment.png*/) no-repeat;
+    
+}
+
+.appointment h5 {
+    font-size: 30px;
+    padding-top: 38px;
+    text-align: center;
+}
+
+.appointment .appointment-subject {
+    /* width: 640px; */
+    width:1000px;
+    padding-top: 65px;
+    margin: 0 auto;
+    /* border:1px solid red; */
+}
+
+.appointment-subject .appointment-left {
+    width: 300px;
+    height: 60px;
+    float: left;
+    background-color: #fff;
+}
+
+.appointment-subject .appointment-left img {
+    padding-top: 12px;
+    margin-left: 12px;
+    width: 31px;
+    height: 37px;
+}
+
+.appointment-subject .appointment-left input {
+    border: none;
+    margin-top: 12px;
+    width: 160px;
+    height: 37px;
+    margin-left: 21px;
+    color: #333;
+    font-size: 18px;
+}
+
+.appointment-subject input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #808080;
+    font-size: 18px;
+}
+
+.appointment-subject input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #808080;
+    font-size: 18px;
+}
+
+.appointment-subject input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #808080;
+    font-size: 18px;
+}
+
+.appointment-subject input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #808080;
+    font-size: 18px;
+}
+
+.appointment-subject .appointment-right {
+    width: 300px;
+    height: 60px;
+    float: left;
+    background-color: #fff;
+    margin-left:40px;
+}
+
+.appointment-subject .appointment-right img {
+    padding-top: 12px;
+    margin-left: 12px;
+    width: 31px;
+    height: 37px;
+}
+
+.appointment-subject .appointment-right input {
+    border: none;
+    margin-top: 12px;
+    width: 160px;
+    height: 37px;
+    margin-left: 21px;
+    color: #333;
+    font-size: 18px;
+}
+.appointment-subject>div {
+    /* border:1px solid red; */
+}
+.appointment-last {
+    width: 300px;
+    height: 60px;
+    float: left;
+    margin-left:40px;
+    
+}
+.appointment-last select{
+    width: 300px;
+    height: 60px;
+    font-size:18px;
+    padding-left:30px;
+    border:none;
+
+}
+
+
+
+
+.appointment-subject .appointment-bottom {
+    border: none;
+    margin-left: 385px;
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+    background-color: #3fa3f9;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.footer {
+    height: 380px;
+    width: 100%;
+    color: #fff;
+    background-color: #091a2c;
+}
+
+.footer .footer-subject {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-subject ul {}
+
+.footer .footer-subject ul li {
+    float: left;
+}
+
+.footer-regard {
+    width: 324px;
+}
+
+.footer-regard p {
+    margin-top: 30px;
+    width: 260px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer-regard a {
+    display: block;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.footer-case {
+    width: 320px;
+}
+
+.footer-case-top {
+    width: 260px;
+    padding: 28px 0 20px;
+    border-bottom: 2px solid #fff;
+    font-size: 14px;
+}
+
+.footer-case-top p a {
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer-case-bottom {
+    padding: 28px 0 20px 0;
+    font-size: 14px;
+}
+
+.footer-case-bottom p a {
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer-serve {
+    width: 320px;
+}
+
+.footer-serve .footer-serve-top {
+    margin-top: 30px;
+}
+
+.footer-serve-top:after {
+    content: '';
+    display: table;
+}
+
+.footer-serve-top:after {
+    clear: both;
+}
+
+.footer-serve div {
+    width: 264px;
+}
+
+.footer-serve div a {
+    float: left;
+    display: block;
+    width: 120px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.footer-serve .footer-serve-bottom {
+    padding-top: 20px;
+}
+
+.footer-serve div a:nth-child(2n) {
+    margin-left: 20px;
+}
+
+.footer-contact {
+    width: 222px;
+}
+
+.footer-contact div {
+    margin-top: 20px;
+}
+
+.footer-contact div img {
+    width: 18px;
+    height: 24px;
+    /* margin-top: 5px; */
+    float: left;
+}
+
+.footer-contact div p {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.footer-contact div span {
+    padding-left: 12px;
+    line-height: 24px;
+}
+
+.footer-contact .footer-contact-top img {
+    margin-top: 5px;
+}
+
+.footer-contact .footer-contact-top {
+    margin-top: 30px;
+}
+
+.footer .footer-subject ul li h3 {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
